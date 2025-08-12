@@ -1,0 +1,294 @@
+[
+  {
+    "id": "pres_1735507200000_abc123",
+    "title": "Propuesta Comercial - Cliente ABC",
+    "description": "Presentación para proyecto de transformación digital",
+    "content": {
+      "slides": [
+        {
+          "id": "slide-1",
+          "type": "title",
+          "title": "Transformación Digital",
+          "content": [
+            {
+              "id": "content-1",
+              "type": "text",
+              "data": "Propuesta para Cliente ABC",
+              "style": {
+                "fontSize": "24px",
+                "textAlign": "center",
+                "color": "#DC2626"
+              }
+            }
+          ]
+        },
+        {
+          "id": "slide-2",
+          "type": "content",
+          "title": "Agenda",
+          "content": [
+            {
+              "id": "content-2",
+              "type": "text",
+              "data": "1. Análisis actual\n2. Propuesta de solución\n3. Cronograma\n4. Inversión"
+            }
+          ]
+        },
+        {
+          "id": "slide-3",
+          "type": "content",
+          "title": "Beneficios Clave",
+          "content": [
+            {
+              "id": "content-3",
+              "type": "text",
+              "data": "• Reducción de costos del 30%\n• Mejora en eficiencia\n• Automatización de procesos"
+            }
+          ]
+        }
+      ],
+      "theme": {
+        "primaryColor": "#DC2626",
+        "secondaryColor": "#B91C1C",
+        "backgroundColor": "#FFFFFF",
+        "textColor": "#262626",
+        "fontFamily": "Inter"
+      },
+      "settings": {
+        "autoPlay": false,
+        "autoPlayDelay": 5000,
+        "showNavigation": true,
+        "showProgress": true,
+        "allowChat": true,
+        "allowVoice": true
+      }
+    },
+    "status": "PUBLISHED",
+    "accessToken": "abc123def456",
+    "createdAt": "2025-08-07T20:10:57.314Z",
+    "updatedAt": "2025-08-07T20:10:57.315Z"
+  },
+  {
+    "id": "pres_1735507300000_def456",
+    "title": "Demo Técnico - Plataforma Cloud",
+    "description": "Demostración técnica de capacidades cloud",
+    "content": {
+      "slides": [
+        {
+          "id": "slide-1",
+          "type": "title",
+          "title": "Plataforma Cloud",
+          "content": [
+            {
+              "id": "content-1",
+              "type": "text",
+              "data": "Demostración Técnica",
+              "style": {
+                "fontSize": "24px",
+                "textAlign": "center",
+                "color": "#DC2626"
+              }
+            }
+          ]
+        },
+        {
+          "id": "slide-2",
+          "type": "content",
+          "title": "Arquitectura",
+          "content": [
+            {
+              "id": "content-2",
+              "type": "text",
+              "data": "Descripción de la arquitectura cloud propuesta"
+            }
+          ]
+        }
+      ],
+      "theme": {
+        "primaryColor": "#DC2626",
+        "secondaryColor": "#B91C1C",
+        "backgroundColor": "#FFFFFF",
+        "textColor": "#262626",
+        "fontFamily": "Inter"
+      },
+      "settings": {
+        "autoPlay": true,
+        "autoPlayDelay": 3000,
+        "showNavigation": true,
+        "showProgress": true,
+        "allowChat": true,
+        "allowVoice": false
+      }
+    },
+    "status": "DRAFT",
+    "accessToken": "token_1754597457315_sj2msvgzm",
+    "createdAt": "2025-08-07T20:10:57.315Z",
+    "updatedAt": "2025-08-07T20:10:57.315Z"
+  },
+  {
+    "id": "pres_liquidglass_2025",
+    "title": "Liquid Glass Design System",
+    "description": "Una nueva era en diseño de interfaces - Sistema de diseño avanzado para experiencias digitales excepcionales",
+    "content": {
+      "slides": [
+        {
+          "id": "slide-1",
+          "type": "cover",
+          "title": "Liquid Glass Design System",
+          "subtitle": "Una nueva era en diseño de interfaces",
+          "narration": "¡Bienvenidos! Hoy les voy a presentar Liquid Glass, nuestro nuevo sistema de diseño. Imaginen interfaces que se sienten vivas, que responden de forma natural... como el agua. Es una nueva era en el diseño digital, y estoy emocionado de compartirla con ustedes.",
+          "elements": [
+            {
+              "type": "text",
+              "content": "Presentación del sistema de diseño más avanzado para experiencias digitales excepcionales",
+              "style": "subtitle"
+            },
+            {
+              "type": "text", 
+              "content": "Equipo de Diseño UX",
+              "style": "author"
+            }
+          ],
+          "contextLinks": [
+            {
+              "text": "sistema de diseño",
+              "context": "que_es_design_system",
+              "question": "¿Qué es exactamente un sistema de diseño?"
+            },
+            {
+              "text": "experiencias digitales",
+              "context": "experiencias_digitales_ejemplos", 
+              "question": "¿Puedes mostrarme ejemplos de experiencias digitales excepcionales?"
+            }
+          ]
+        },
+        {
+          "id": "slide-2",
+          "type": "index",
+          "title": "Índice de Contenidos",
+          "narration": "Este es nuestro recorrido de hoy. Empezaremos con los fundamentos del diseño, veremos la metodología que usamos, cómo lo implementamos en la práctica... y por supuesto, les mostraré los resultados que hemos conseguido. ¿Listos para comenzar?",
+          "elements": [
+            {
+              "type": "keypoints",
+              "title": "Contenidos",
+              "items": [
+                {
+                  "number": "01",
+                  "text": "Fundamentos del Diseño",
+                  "description": "Principios básicos y filosofía"
+                },
+                {
+                  "number": "02", 
+                  "text": "Metodología Aplicada",
+                  "description": "Proceso y herramientas utilizadas"
+                },
+                {
+                  "number": "03",
+                  "text": "Implementación Práctica", 
+                  "description": "Casos de uso y ejemplos"
+                },
+                {
+                  "number": "04",
+                  "text": "Resultados y Métricas",
+                  "description": "Análisis de rendimiento"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "slide-3",
+          "type": "content",
+          "title": "Fundamentos del Diseño",
+          "narration": "Los fundamentos de Liquid Glass son simples pero poderosos. Piensen en el vidrio líquido... es transparente, fluido, elegante. Nuestros tres pilares son: translucidez que se adapta al contexto, fluidez natural en cada interacción, y elegancia minimalista.",
+          "elements": [
+            {
+              "type": "text",
+              "content": "El diseño Liquid Glass se basa en la translucidez, la fluidez y la elegancia natural. Cada elemento responde dinámicamente al contexto, creando experiencias que se sienten vivas y orgánicas.",
+              "style": "intro"
+            },
+            {
+              "type": "highlight",
+              "content": "Interfaces que desaparecen, que guían sin interrumpir",
+              "icon": "sparkles",
+              "variant": "info"
+            },
+            {
+              "type": "keypoints",
+              "title": "Principios Fundamentales",
+              "items": [
+                {
+                  "text": "Translucidez contextual y adaptativa",
+                  "icon": "layers"
+                },
+                {
+                  "text": "Fluidez natural en las interacciones", 
+                  "icon": "motion"
+                },
+                {
+                  "text": "Elegancia minimalista y funcional",
+                  "icon": "target"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "slide-4",
+          "type": "metrics",
+          "title": "Resultados y Métricas",
+          "elements": [
+            {
+              "type": "text",
+              "content": "Las métricas de usuario muestran mejoras significativas en todos los indicadores clave de rendimiento.",
+              "style": "intro"
+            },
+            {
+              "type": "metrics",
+              "title": "Mejoras Principales",
+              "items": [
+                {
+                  "value": "45%",
+                  "label": "Satisfacción del usuario",
+                  "icon": "favorite",
+                  "color": "brand"
+                },
+                {
+                  "value": "67%",
+                  "label": "Reducción tiempo de carga",
+                  "icon": "speed",
+                  "color": "success"
+                },
+                {
+                  "value": "89%",
+                  "label": "Mejora en accesibilidad",
+                  "icon": "accessibility",
+                  "color": "info"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "theme": {
+        "primaryColor": "#DC2626",
+        "secondaryColor": "#B91C1C", 
+        "backgroundColor": "#FFFFFF",
+        "textColor": "262626",
+        "fontFamily": "Inter"
+      },
+      "settings": {
+        "autoPlay": false,
+        "autoPlayDelay": 8000,
+        "showNavigation": true,
+        "showProgress": true,
+        "allowChat": true,
+        "allowVoice": true
+      }
+    },
+    "status": "PUBLISHED",
+    "accessToken": "liquidglass2025",
+    "createdAt": "2025-08-08T07:22:15.000Z",
+    "updatedAt": "2025-08-08T07:22:15.000Z"
+  }
+]

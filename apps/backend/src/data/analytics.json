@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "event_1754602063306_tkee8k5to",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602063256_xnthvrso1",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:27:43.306Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602064273_6vhmivfwe",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602064268_x9q0kpai4",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:27:44.273Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602064462_6730ndpac",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602064425_nctbiid0n",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:27:44.462Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602064877_5s5ji8mmc",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602064831_mwrzz11gx",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:27:44.877Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602065390_1tdsdoee5",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602065351_ovnielkar",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:27:45.390Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602066145_9d2adjhoo",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602066142_j1fh5p93k",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:27:46.145Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602066488_y61dbu6qx",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602066478_novvgj9s7",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:27:46.488Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602067175_qqtnsqgzw",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602067107_zsrbc11q2",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:27:47.175Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602081180_p3dq3hnz8",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602081176_juwl3jkgf",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:01.180Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602081336_a5i248dvm",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602081318_km4dvpp15",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:01.336Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602081895_kz7ztebui",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602081891_0tcjmgszj",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:01.895Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602082430_6cm4k5z3l",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602082381_6gn0nnx19",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:02.430Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602082935_y2nu3rxf6",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602082901_m7y35xhri",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:02.935Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602083306_1t9hk9f64",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602083303_uyy2um2b0",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:03.306Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602083626_vy7txfous",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602083609_xbgv2bhem",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:03.626Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602092798_gu8crwour",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602092781_pnz3sy0xf",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:12.798Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602093364_v9o98zk1p",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602093359_55zzn5wfi",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:13.364Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602093849_c43x2lyhi",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602093831_nxabeoxib",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:13.849Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602094348_5c01sf5pb",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602094342_fwu3q464x",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:14.348Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602094763_n4frd6vr3",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602094723_5683gbvox",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:14.763Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602095176_5si941p8k",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602095173_88uagejie",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:15.176Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602107358_v84v8u3kz",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602107321_635mm2tvb",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:27.358Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602107372_o3vh2gw0e",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602107362_91dpk6p2g",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:27.372Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602107843_tm770xhwz",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602107841_356cengjo",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:27.843Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602108205_in5bu0zay",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602108201_1t2op9p23",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:28.205Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602108734_qfn4ffb4o",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602108728_jllr57dqb",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:28.734Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602109248_0084dnk5n",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602109238_85ws20ak8",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:29.248Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602109792_exnfv3hb7",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602109743_9c5kk3igc",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:29.792Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602120502_bkgglaliq",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602120495_a453uwr4l",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:40.502Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602120582_hh33emaq2",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602120532_snwc0n3vg",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:40.582Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602121006_5jyioy3fs",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602121005_mxhsortrl",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:41.006Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602121350_7qnk79eo3",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602121340_hz21f1pal",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:41.350Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602121785_azqojflj0",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602121783_v37ixbuq1",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:41.785Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602122150_xvzcsg1v5",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602122145_q5k9kpbzb",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:42.150Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602122597_jefu67ofh",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602122593_ya9c3tpfk",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:28:42.597Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602454198_5hlnmfs0p",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602454164_tf8em3we5",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:34:14.198Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602456311_nfa3eg79x",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602456275_roq93w9do",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:34:16.313Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602458146_egz1wi3kn",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602458139_vfqfoyrmg",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:34:18.146Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602459231_f2jfg434z",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602459211_a3md2thjy",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:34:19.231Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602460043_3oh9odvo6",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602459983_6txsw3q9c",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:34:20.043Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602460935_6p36sedp4",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602460930_bth2vukf4",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:34:20.935Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602669116_vjme4yxfq",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602669105_5yygdy1am",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:37:49.116Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602673275_gspqh1ay5",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602673272_ykgj4yt88",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:37:53.275Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602674236_aswb8ftmi",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602674229_qqjfnbu46",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:37:54.236Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602683992_j1sg6pvfe",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602683985_359hflxtr",
+    "eventType": "CHAT_TOGGLE",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:38:03.992Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602687676_1qwi3pgt8",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602687671_ku2lg5ow6",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:38:07.676Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602694878_jey02fwom",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602694875_c538vf7oe",
+    "eventType": "CHAT_TOGGLE",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:38:14.878Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602713452_i8ubqbobi",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602713442_hu0j6jv0q",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:38:33.452Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602804847_1k4yuxdm0",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602804843_h3emwjogx",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:40:04.847Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602817832_17ez5wrp4",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602817827_zpv5jszb9",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:40:17.832Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602818744_d4qu3l1vd",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602818741_suw0fiqcv",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:40:18.744Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602820211_ygthgs3u2",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602820209_vrqpsxnly",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:40:20.211Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602820696_3l5vqo472",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602820692_d58qfvh17",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:40:20.696Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754602993668_w5o0efu35",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754602993660_8ec0xd69y",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:43:13.668Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754603075314_e3xcyy3g8",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754603075306_6et5s61nr",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-07T21:44:35.314Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754635015427_226t5lpdm",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754635015378_97j6nu3u5",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T06:36:55.427Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754635016857_dryprus9o",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754635016851_273khyxh4",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T06:36:56.857Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754635019017_vunu7wgw1",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754635019006_rv0xghs45",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T06:36:59.017Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754635020331_qeufisb6l",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754635020328_x7h1abc5t",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T06:37:00.331Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754635954260_qbl1n3e6v",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754635954078_31knp6ef3",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T06:52:34.260Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754635955010_pfgrko35p",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754635955007_7ickalpcv",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T06:52:35.010Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754635955282_01p6fao3s",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754635955277_5t21omd47",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T06:52:35.282Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754635955644_ylraettu5",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754635955638_2gnyf49cg",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T06:52:35.644Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754636602849_1m8vrj4nl",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754636602845_qfpcblcya",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:03:22.849Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754636603418_46ruv6dw8",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754636603416_hso0647dw",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:03:23.418Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754636603818_vjaphle09",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754636603807_hbj2a6rbl",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:03:23.818Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754636604267_9zlckmqef",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754636604260_wgy9b9dlj",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:03:24.267Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754637299940_byqw8298x",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754637299822_mu4cotsfh",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:14:59.940Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754637304618_73dox3sug",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754637304615_n05ptp5sq",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:15:04.618Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754637305204_ym33cp1sa",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754637305198_2tp12g2xn",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:15:05.204Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754637307406_12nk9749j",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754637307403_rw336tsds",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:15:07.406Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754637307950_hqn1fhuod",
+    "presentationId": "pres_1735507200000_abc123",
+    "sessionId": "session_1754637307945_26tv00r45",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:15:07.950Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754638207391_yl8ci0p03",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754638207383_fhrzzhz11",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:30:07.391Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754638213353_yxv7jt17d",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754638213350_86ryawvlk",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:30:13.353Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754638214101_gq25jlha8",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754638214095_p0e5icn0k",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:30:14.101Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754638214699_2y5fvuooi",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754638214695_59jpeii6s",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:30:14.699Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754638217225_vvszvown5",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754638217220_kwn7rg236",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:30:17.225Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754638217605_2fqbtin7v",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754638217603_sta0x0rr1",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:30:17.605Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754638218190_9elf9t1u0",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754638218188_sv2ud8k2f",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:30:18.190Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754638254214_zowmx59pg",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754638254207_ca6et8nrm",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:30:54.214Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754638255681_u2k7p00f0",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754638255676_g0rf94eml",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:30:55.681Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754638256297_kp64kz4ny",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754638256293_ul1i828qo",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:30:56.297Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754638258157_ftfj733c5",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754638258152_yred2vunz",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:30:58.157Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754638258529_ixgedro1c",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754638258525_0iaqkzgsw",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:30:58.529Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754638258773_x0wthke47",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754638258768_efor5mhro",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:30:58.773Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754638847996_l9od0a6jc",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754638847990_1yiby3m68",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:40:47.996Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754638848581_1meburjyg",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754638848576_f15076pe4",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:40:48.581Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754638849107_4o4ewbcd7",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754638849103_nyae6xaue",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:40:49.107Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754639003517_4lh9akrix",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754639003507_09vv77ry4",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:43:23.517Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754639004514_rmsnh43sp",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754639004509_lt7dztd0y",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:43:24.514Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754639131460_k6toi5crs",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754639131452_c8wotaom7",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:45:31.460Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754639389892_ljtyf4i59",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754639389885_4e8rpmzrd",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:49:49.892Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754639390691_i69koeg83",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754639390686_15ecypqkw",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:49:50.691Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754639391261_epkxlbv15",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754639391259_boho3hfik",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:49:51.261Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754639392659_0yy9h61rn",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754639392655_dv6mx0h3j",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:49:52.659Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754639393099_tq0fm4psu",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754639393094_hmkl8cfus",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:49:53.099Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754639393487_mzx0hcwop",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754639393483_5rdxl4a5l",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:49:53.487Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754639431943_nf9z7jm3c",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754639431916_9ai4cxt2t",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:50:31.943Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754639502665_55fv38xbc",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754639502638_keqxk8owi",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T07:51:42.665Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754641883936_fzx0tpj4c",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754641883920_09zns9bat",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:31:23.936Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754641884222_ggfmsx2fx",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754641884216_0js1ifrdp",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:31:24.222Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754641888415_9qittjzom",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754641888413_uvzkv1y4c",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:31:28.415Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754641890727_s6hfhspbj",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754641890722_uxhntnl0n",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:31:30.727Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754641892235_oi2d61xh9",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754641892231_53ct1lyti",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:31:32.235Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754641895429_5z963qqtn",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754641895424_5y2ohh93l",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:31:35.429Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754641910278_lslkp0cue",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754641910271_0cmu2s7de",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:31:50.278Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754641912538_i8t1pmxfj",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754641912533_u4y2amyow",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:31:52.538Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754641913076_rwolchaqj",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754641913072_g0t1v4plj",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:31:53.076Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754641913732_yk00xi1hi",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754641913731_oompxz2ni",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:31:53.732Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754641926185_qy1ruw81j",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754641926180_2cy2j2v1r",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:32:06.185Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754641945853_wz6oo2g7z",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754641945847_tfrwsfelc",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:32:25.853Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754641946647_bcj7daqwq",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754641946642_ystdpww9y",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:32:26.647Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754641949376_yiuhrm4vd",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754641949374_lbly6blk9",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:32:29.376Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642044183_1xhk3qm3y",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642044174_7c4bbmvr6",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:34:04.183Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642269008_ds4sqdfwz",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642269002_jql8xhmip",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:37:49.008Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642269716_x0l9p8r8v",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642269714_2oltjndvx",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:37:49.716Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642270865_4ooahlzf2",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642270861_o9wvv4kty",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:37:50.865Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642315499_3pu3zvhvv",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642315492_3skj5or7z",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:38:35.499Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642316071_4f6v4dznk",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642316066_3rzzq9onf",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:38:36.071Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642316608_a4id9wosa",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642316603_5z3x2aoi3",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:38:36.608Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642924804_t5t292mik",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642924758_dfq9x568h",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:48:44.804Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642925446_9u39qitim",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642925443_lecesm6sy",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:48:45.446Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642926750_xpz86p757",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642926746_3iw1o8ll3",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:48:46.750Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642928198_06abitsyh",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642928170_uwncfqlz1",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:48:48.198Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642928587_eg7epexys",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642928464_gmf5x9ork",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:48:48.587Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642929405_m9xx7szlf",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642929404_wuzb5a5kk",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:48:49.405Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642931842_y3tlclwpo",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642931836_k1rju691w",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:48:51.842Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642934636_j3vj9rsr3",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642934633_k0yg0wu78",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:48:54.636Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642935564_aj2urdqk6",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642935560_fbu9xe4o7",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:48:55.564Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642938006_h62olls7x",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642938002_5eqh05f2u",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:48:58.006Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642939050_1px1ydr06",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642939048_rolj2g0ht",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:48:59.050Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642955028_6hn0t0wra",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642955023_s1ulcszkf",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:49:15.028Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642956035_r26b89qev",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642956031_7vu7qqfh5",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:49:16.035Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642958705_r6bav6se0",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642958701_u137w4u01",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:49:18.705Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754642990202_dwgrmf4a5",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754642990180_conrv27k9",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:49:50.202Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754643016221_mttnvuo6p",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754643016215_sp3dj4iyf",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:50:16.221Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754643016908_t3et8q1zp",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754643016903_yj3djk67o",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:50:16.908Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754643018497_dcrr71uxx",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754643018493_5sw6k4z9a",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T08:50:18.497Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754657350822_4zki3fg2q",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754657350780_8me79ogve",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T12:49:10.822Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754657626203_ut0c71whc",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754657626198_lmm37mujy",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T12:53:46.203Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754657626711_9ldseiodo",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754657626707_8e13t7cjv",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T12:53:46.711Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754657627177_oy2fd7drx",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754657627174_2dkh0muzl",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T12:53:47.177Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754657628651_7m1hq62i2",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754657628647_h9cob8dij",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T12:53:48.651Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754657629023_tfjg0z6i1",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754657629020_ag2jxsgmh",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T12:53:49.023Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754657629413_59x9kiakm",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754657629410_3vfquq81p",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T12:53:49.413Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754657630271_o8rsmi0b6",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754657630268_v0l5uwp7h",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T12:53:50.271Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754657630664_sodnpk156",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754657630659_39556z23i",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T12:53:50.664Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754657631033_n91hogk7g",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754657631030_qapjpxo0c",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T12:53:51.033Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754657634282_n9g4oid5g",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754657634276_96o4c2hnd",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T12:53:54.282Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754657634572_pvxkkqo8s",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754657634569_k6l4kbuhz",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T12:53:54.572Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754657634920_c7dr46rz9",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754657634917_9e9orlz1x",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T12:53:54.920Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754659302822_qoox0xg39",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754659302775_xd1jqwjfd",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T13:21:42.822Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754659329770_r5gfkczym",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754659329764_p0dqtkyer",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T13:22:09.770Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754659330645_rpfwc0qk5",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754659330642_amn0j6tpx",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T13:22:10.645Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754659331120_t19519x0k",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754659331118_ag7kusd4s",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T13:22:11.120Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754659332382_anv5cv07y",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754659332377_fbcpm3g7g",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T13:22:12.382Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754659332892_graiu7ajb",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754659332888_pbuksgqot",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T13:22:12.892Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754659333054_h8d9gquqf",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754659333050_jpw0j4yik",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T13:22:13.054Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754661447167_3j37sath4",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754661447118_3nfeqm72c",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T13:57:27.167Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754661451077_gtgrfhull",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754661451071_bxf3af1vy",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T13:57:31.077Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754661451683_o9v53s3ft",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754661451680_od23lglqm",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T13:57:31.684Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754661452678_q83b2ycrj",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754661452673_k23nt5gzm",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T13:57:32.678Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754662520357_vl1q8xcnc",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754662520353_00oetv6t0",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T14:15:20.357Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754662664679_bf4prrblm",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754662664669_iyfkxuikj",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T14:17:44.679Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754662665213_am5fzwg1y",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754662665209_8we0gtd40",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T14:17:45.213Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754662665598_raaufcuz9",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754662665596_m838qtwhs",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T14:17:45.598Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754662667822_c3h9q716z",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754662667818_w2pgit3rp",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T14:17:47.822Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754662668340_jabc4ewf1",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754662668333_af9g63oi3",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T14:17:48.340Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754662668698_95wgy7wen",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754662668687_pe3h6jmx3",
+    "eventType": "SLIDE_VIEW",
+    "eventData": {},
+    "timestamp": "2025-08-08T14:17:48.698Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  },
+  {
+    "id": "event_1754664016063_wafv0aedm",
+    "presentationId": "pres_liquidglass_2025",
+    "sessionId": "session_1754664016057_ybm6unl9w",
+    "eventType": "PRESENTATION_START",
+    "eventData": {},
+    "timestamp": "2025-08-08T14:40:16.063Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ipAddress": "::1"
+  }
+]

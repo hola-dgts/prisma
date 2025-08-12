@@ -1,0 +1,62 @@
+[
+  {
+    "email": "admin@prisma.com",
+    "password": "$2b$12$MrnzwV9NzleADgjVbRkhFe/5IjDZrm9iHH9LkGNBmwaJpELAD.Boy",
+    "name": "Administrator",
+    "role": "ADMIN"
+  },
+  {
+    "email": "demo@prisma.com",
+    "password": "$2b$12$rZSJisttOy9Er.cS9HDgsOsiNBW6/2mHdCcLJwBeBrfwSFzWXZbhu",
+    "name": "Demo User",
+    "role": "USER"
+  },
+  {
+    "email": "admin@prisma.com",
+    "password": "$2b$12$.rU2qaKk6gpBLQhtESOySO503XUDd12vH3TUq2atUu9VuugqwzaWS",
+    "name": "Administrator",
+    "role": "ADMIN"
+  },
+  {
+    "email": "demo@prisma.com",
+    "password": "$2b$12$5uKiygMTm8BservHVUxv7.7w2U6KrJ90cH0LbAR2OflccKwKAYAnq",
+    "name": "Demo User",
+    "role": "USER"
+  },
+  {
+    "email": "admin@prisma.com",
+    "password": "$2b$12$zmJSQZ8gKRqp/cAPkzII3uAGyGkSWOEVlBMalB7waFMVVNSQv251a",
+    "name": "Administrator",
+    "role": "ADMIN"
+  },
+  {
+    "email": "demo@prisma.com",
+    "password": "$2b$12$rFpGcDnqnN822hyJyni2UuaCEn1IqN2uST3LsQJ0H7U1.8pxqBDw.",
+    "name": "Demo User",
+    "role": "USER"
+  },
+  {
+    "email": "admin@prisma.com",
+    "password": "$2b$12$wT5Uhabdo47Se8u7KthEBeXtcAn58p8njD5OxAAqydWftjU3Ws03K",
+    "name": "Administrator",
+    "role": "ADMIN"
+  },
+  {
+    "email": "demo@prisma.com",
+    "password": "$2b$12$2pBHdyqYtW0yAj0.jGaxaeuYyVAW00yC71558csu/vtA.Xewo0Jxi",
+    "name": "Demo User",
+    "role": "USER"
+  },
+  {
+    "email": "admin@prisma.com",
+    "password": "$2b$12$qNfs4LIogixfwxdAHxj9UeQWFHLVHNJh4K451/ptk/04eXwo9luAG",
+    "name": "Administrator",
+    "role": "ADMIN"
+  },
+  {
+    "email": "demo@prisma.com",
+    "password": "$2b$12$ke59YwqcrMvzrckOFRyoMOzWe85XBhzFMM1MHeUtHeGtS/l5aEJsK",
+    "name": "Demo User",
+    "role": "USER"
+  }
+]

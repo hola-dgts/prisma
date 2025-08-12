@@ -1,0 +1,354 @@
+{
+  "id": "pres_liquidglass_2025",
+  "title": "Liquid Glass Design System",
+  "description": "Una nueva era en diseño de interfaces - Sistema de diseño avanzado para experiencias digitales excepcionales",
+  "content": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "type": "cover",
+        "title": "Liquid Glass Design System",
+        "subtitle": "Una nueva era en diseño de interfaces",
+        "narration": "¡Bienvenidos! Hoy les voy a presentar Liquid Glass, nuestro nuevo sistema de diseño. Imaginen interfaces que se sienten vivas, que responden de forma natural... como el agua. Es una nueva era en el diseño digital, y estoy emocionado de compartirla con ustedes.",
+        "elements": [
+          {
+            "type": "text",
+            "content": "Presentación del sistema de diseño más avanzado para experiencias digitales excepcionales",
+            "style": "subtitle"
+          },
+          {
+            "type": "text", 
+            "content": "Equipo de Diseño UX",
+            "style": "author"
+          }
+        ],
+        "contextLinks": [
+          {
+            "text": "sistema de diseño",
+            "context": "que_es_design_system",
+            "question": "¿Qué es exactamente un sistema de diseño?"
+          },
+          {
+            "text": "experiencias digitales",
+            "context": "experiencias_digitales_ejemplos", 
+            "question": "¿Puedes mostrarme ejemplos de experiencias digitales excepcionales?"
+          }
+        ]
+      },
+      {
+        "id": "slide-2",
+        "type": "index",
+        "title": "Índice de Contenidos",
+        "narration": "Este es nuestro recorrido de hoy. Empezaremos con los fundamentos del diseño, veremos la metodología que usamos, cómo lo implementamos en la práctica... y por supuesto, les mostraré los resultados que hemos conseguido. ¿Listos para comenzar?",
+        "elements": [
+          {
+            "type": "keypoints",
+            "title": "Contenidos",
+            "items": [
+              {
+                "number": "01",
+                "text": "Fundamentos del Diseño",
+                "description": "Principios básicos y filosofía",
+                "slideIndex": 3
+              },
+              {
+                "number": "02", 
+                "text": "Metodología Aplicada",
+                "description": "Proceso y herramientas utilizadas",
+                "slideIndex": 4
+              },
+              {
+                "number": "03",
+                "text": "Implementación Práctica", 
+                "description": "Casos de uso y ejemplos",
+                "slideIndex": 5
+              },
+              {
+                "number": "04",
+                "text": "Resultados y Métricas",
+                "description": "Análisis de rendimiento",
+                "slideIndex": 6
+              },
+              {
+                "number": "05",
+                "text": "Elementos Clave",
+                "description": "Componentes principales", 
+                "slideIndex": 7
+              },
+              {
+                "number": "06",
+                "text": "Futuro del Diseño",
+                "description": "Tendencias y evolución",
+                "slideIndex": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "slide-3",
+        "type": "content",
+        "title": "Fundamentos del Diseño",
+        "narration": "Los fundamentos de Liquid Glass son simples pero poderosos. Piensen en el vidrio líquido... es transparente, fluido, elegante. Nuestros tres pilares son: translucidez que se adapta al contexto, fluidez natural en cada interacción, y elegancia minimalista. La idea clave es crear interfaces que desaparecen, que guían sin interrumpir. Como dice nuestro lema: las mejores interfaces son las que no notas que están ahí.",
+        "elements": [
+          {
+            "type": "text",
+            "content": "El diseño Liquid Glass se basa en la translucidez, la fluidez y la elegancia natural. Cada elemento responde dinámicamente al contexto, creando experiencias que se sienten vivas y orgánicas.",
+            "style": "intro"
+          },
+          {
+            "type": "highlight",
+            "content": "Interfaces que desaparecen, que guían sin interrumpir",
+            "icon": "sparkles",
+            "variant": "info"
+          },
+          {
+            "type": "keypoints",
+            "title": "Principios Fundamentales",
+            "items": [
+              {
+                "text": "Translucidez contextual y adaptativa",
+                "icon": "layers"
+              },
+              {
+                "text": "Fluidez natural en las interacciones", 
+                "icon": "motion"
+              },
+              {
+                "text": "Elegancia minimalista y funcional",
+                "icon": "target"
+              }
+            ]
+          },
+          {
+            "type": "link",
+            "text": "Para conocer más sobre nuestros principios fundamentales, consulte la ",
+            "linkText": "documentación completa",
+            "afterText": "."
+          }
+        ],
+        "contextLinks": [
+          {
+            "text": "Liquid Glass",
+            "context": "liquid_glass_concepto",
+            "question": "¿Qué hace especial al sistema Liquid Glass?"
+          },
+          {
+            "text": "translucidez",
+            "context": "translucidez_tecnica", 
+            "question": "¿Cómo implementáis la translucidez técnicamente?"
+          },
+          {
+            "text": "interfaces que desaparecen",
+            "context": "interfaces_invisibles",
+            "question": "¿Qué significa que las interfaces desaparecen?"
+          }
+        ]
+      },
+      {
+        "id": "slide-4",
+        "type": "content",
+        "title": "Metodología Aplicada",
+        "narration": "¿Cómo llegamos aquí? Con una metodología muy rigurosa. Hemos trabajado con más de mil usuarios durante seis meses... imagínense, mil personas probando, opinando, mejorando el sistema. Cada decisión está respaldada por datos, con un 95% de confianza estadística. Y lo más importante: usamos tecnología avanzada pero siempre, siempre, manteniendo la accesibilidad como prioridad.",
+        "elements": [
+          {
+            "type": "text",
+            "content": "Nuestro proceso de diseño integra investigación de usuarios, prototipado iterativo y testing continuo.",
+            "style": "body"
+          },
+          {
+            "type": "metrics",
+            "title": "Proceso de Validación",
+            "items": [
+              {
+                "value": "1000+",
+                "label": "Usuarios testeados",
+                "icon": "group",
+                "color": "info"
+              },
+              {
+                "value": "6",
+                "label": "Meses de desarrollo",
+                "icon": "event", 
+                "color": "success"
+              },
+              {
+                "value": "95%",
+                "label": "Confianza estadística",
+                "icon": "security",
+                "color": "brand"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "content": "Utilizamos tecnologías avanzadas de renderizado para lograr efectos de vidrio realistas que mantienen la legibilidad y accesibilidad en primer plano.",
+            "style": "body"
+          }
+        ],
+        "contextLinks": [
+          {
+            "text": "investigación de usuarios",
+            "context": "proceso_investigacion",
+            "question": "¿Cómo realizáis la investigación de usuarios?"
+          },
+          {
+            "text": "1000+",
+            "context": "casos_usuarios_testeo",
+            "question": "¿Cómo gestionasteis el testing con más de 1000 usuarios?"
+          },
+          {
+            "text": "testing continuo",
+            "context": "metodologia_testing",
+            "question": "¿En qué consiste vuestro proceso de testing continuo?"
+          },
+          {
+            "text": "95%",
+            "context": "confianza_estadistica",
+            "question": "¿Cómo alcanzáis un 95% de confianza estadística?"
+          },
+          {
+            "text": "accesibilidad",
+            "context": "accesibilidad_prioridad",
+            "question": "¿Qué medidas de accesibilidad implementáis?"
+          }
+        ]
+      },
+      {
+        "id": "slide-5",
+        "type": "content",
+        "title": "Implementación Práctica",
+        "narration": "Ahora, la parte técnica... pero no se preocupen, la haré simple. Liquid Glass mantiene 60 cuadros por segundo, siempre. ¿Cómo? Con renderizado acelerado por GPU, carga inteligente de recursos, y mi favorito: adaptación dinámica de calidad. Es decir, el sistema detecta tu dispositivo y se ajusta automáticamente. Funciona igual de bien en un móvil que en una workstation.",
+        "elements": [
+          {
+            "type": "highlight",
+            "content": "60fps constantes con optimización automática de rendimiento",
+            "icon": "zap",
+            "variant": "success"
+          },
+          {
+            "type": "text",
+            "content": "Los componentes Liquid Glass se adaptan automáticamente a diferentes contextos y dispositivos. La implementación técnica utiliza shaders avanzados y optimizaciones de rendimiento.",
+            "style": "body"
+          },
+          {
+            "type": "keypoints",
+            "title": "Características Técnicas",
+            "items": [
+              {
+                "text": "Renderizado GPU acelerado",
+                "icon": "bolt"
+              },
+              {
+                "text": "Lazy loading inteligente",
+                "icon": "psychology"
+              },
+              {
+                "text": "Caché predictivo de recursos",
+                "icon": "storage"
+              },
+              {
+                "text": "Adaptación dinámica de calidad",
+                "icon": "settings"
+              }
+            ]
+          },
+          {
+            "type": "link",
+            "text": "Revise nuestras ",
+            "linkText": "especificaciones técnicas",
+            "afterText": " para más detalles."
+          }
+        ],
+        "contextLinks": [
+          {
+            "text": "60fps",
+            "context": "rendimiento_60fps",
+            "question": "¿Cómo lográis mantener 60fps constantes?"
+          },
+          {
+            "text": "GPU acelerado",
+            "context": "renderizado_gpu",
+            "question": "¿Qué ventajas ofrece el renderizado GPU?"
+          },
+          {
+            "text": "shaders avanzados",
+            "context": "shaders_explicacion",
+            "question": "¿Qué tipo de shaders utilizáis?"
+          },
+          {
+            "text": "lazy loading inteligente",
+            "context": "lazy_loading_tecnica",
+            "question": "¿Cómo funciona vuestro sistema de lazy loading?"
+          },
+          {
+            "text": "adaptación dinámica",
+            "context": "adaptacion_dispositivos",
+            "question": "¿Cómo se adapta a diferentes dispositivos?"
+          }
+        ]
+      },
+      {
+        "id": "slide-6",
+        "type": "metrics",
+        "title": "Resultados y Métricas",
+        "elements": [
+          {
+            "type": "text",
+            "content": "Las métricas de usuario muestran mejoras significativas en todos los indicadores clave de rendimiento.",
+            "style": "intro"
+          },
+          {
+            "type": "metrics",
+            "title": "Mejoras Principales",
+            "items": [
+              {
+                "value": "45%",
+                "label": "Satisfacción del usuario",
+                "icon": "favorite",
+                "color": "brand"
+              },
+              {
+                "value": "67%",
+                "label": "Reducción tiempo de carga",
+                "icon": "speed",
+                "color": "success"
+              },
+              {
+                "value": "89%",
+                "label": "Mejora en accesibilidad",
+                "icon": "accessibility",
+                "color": "info"
+              },
+              {
+                "value": "34%",
+                "label": "Aumento conversiones",
+                "icon": "trending_up",
+                "color": "warning"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "theme": {
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#B91C1C", 
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#262626",
+      "fontFamily": "Inter"
+    },
+    "settings": {
+      "autoPlay": false,
+      "autoPlayDelay": 8000,
+      "showNavigation": true,
+      "showProgress": true,
+      "allowChat": true,
+      "allowVoice": true
+    }
+  },
+  "status": "PUBLISHED",
+  "accessToken": "liquidglass2025",
+  "createdAt": "2025-08-08T07:22:15.000Z",
+  "updatedAt": "2025-08-08T07:22:15.000Z"
+}
