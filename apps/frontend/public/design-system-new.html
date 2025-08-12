@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prisma v5 Design System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+    <style>
+        /* Design Tokens */
+        :root {
+            /* Colores */
+            --prisma-primary: #bf3e48;
+            --prisma-primary-hover: #a03441;
+            --prisma-primary-light: #fdf2f3;
+            --prisma-dark: #1a1a1a;
+            --prisma-gray: #6b7280;
+            --prisma-light-gray: #f9fafb;
+            --prisma-white: #ffffff;
+
+            /* Tipografía - 5 niveles equilibrados */
+            --prisma-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            --text-hero: clamp(2.5rem, 6vw, 4rem);      /* Títulos principales */
+            --text-title: clamp(1.75rem, 4vw, 2.5rem);  /* Títulos de sección */
+            --text-subtitle: clamp(1.25rem, 3vw, 1.75rem); /* Subtítulos */
+            --text-body: clamp(1rem, 2vw, 1.25rem);     /* Texto normal */
+            --text-small: clamp(0.875rem, 1.5vw, 1rem); /* Texto pequeño */
+
+            /* Espaciado */
+            --space-xs: 0.25rem;
+            --space-sm: 0.5rem;
+            --space-md: 1rem;
+            --space-lg: 1.5rem;
+            --space-xl: 2rem;
+            --space-2xl: 3rem;
+            --space-3xl: 4rem;
+
+            /* Iconos */
+            --icon-sm: 20px;
+            --icon-md: 24px;
+            --icon-lg: 32px;
+            --icon-xl: 48px;
+
+            /* Sombras */
+            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+            /* Bordes */
+            --radius-md: 8px;
+            --radius-lg: 12px;
+        }
+
+        /* Reset y Base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--prisma-font-family);
+            line-height: 1.6;
+            color: var(--prisma-dark);
+            background: var(--prisma-white);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--space-xl);
+        }
+
+        /* Tipografía */
+        .text-hero { font-size: var(--text-hero); font-weight: 700; line-height: 1.1; }
+        .text-title { font-size: var(--text-title); font-weight: 600; line-height: 1.2; }
+        .text-subtitle { font-size: var(--text-subtitle); font-weight: 500; line-height: 1.3; }
+        .text-body { font-size: var(--text-body); font-weight: 400; line-height: 1.6; }
+        .text-small { font-size: var(--text-small); font-weight: 400; line-height: 1.5; }
+
+        /* Iconos Material Symbols */
+        .icon {
+            font-family: 'Material Symbols Outlined';
+            font-weight: normal;
+            font-style: normal;
+            font-size: var(--icon-md);
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+            vertical-align: middle;
+        }
+
+        .icon-sm { font-size: var(--icon-sm); }
+        .icon-md { font-size: var(--icon-md); }
+        .icon-lg { font-size: var(--icon-lg); }
+        .icon-xl { font-size: var(--icon-xl); }
+
+        /* Layout */
+        .section {
+            margin-bottom: var(--space-3xl);
+        }
+
+        .section-title {
+            font-size: var(--text-title);
+            font-weight: 600;
+            margin-bottom: var(--space-2xl);
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+        }
+
+        .section-title .icon {
+            color: var(--prisma-primary);
+            font-size: var(--icon-lg);
+        }
+
+        .grid {
+            display: grid;
+            gap: var(--space-xl);
+        }
+
+        .grid-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+        .grid-3 { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+
+        /* Cards */
+        .card {
+            background: var(--prisma-white);
+            border-radius: var(--radius-lg);
+            padding: var(--space-xl);
+            box-shadow: var(--shadow-md);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-2px);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+            margin-bottom: var(--space-lg);
+        }
+
+        .card-header .icon {
+            color: var(--prisma-primary);
+            font-size: var(--icon-lg);
+        }
+
+        .card-title {
+            font-size: var(--text-subtitle);
+            font-weight: 600;
+            margin: 0;
+        }
+
+        /* Paleta de colores */
+        .color-palette {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: var(--space-lg);
+            margin-bottom: var(--space-2xl);
+        }
+
+        .color-swatch {
+            text-align: center;
+        }
+
+        .color-box {
+            width: 100%;
+            height: 80px;
+            border-radius: var(--radius-md);
+            margin-bottom: var(--space-sm);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .color-name {
+            font-size: var(--text-small);
+            font-weight: 600;
+            margin-bottom: var(--space-xs);
+        }
+
+        .color-value {
+            font-size: var(--text-small);
+            color: var(--prisma-gray);
+            font-family: 'SF Mono', Monaco, monospace;
+        }
+
+        /* Ejemplos de iconos */
+        .icon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: var(--space-lg);
+            margin-bottom: var(--space-2xl);
+        }
+
+        .icon-example {
+            text-align: center;
+            padding: var(--space-lg);
+            border-radius: var(--radius-md);
+            background: var(--prisma-light-gray);
+        }
+
+        .icon-example .icon {
+            display: block;
+            margin: 0 auto var(--space-sm);
+            color: var(--prisma-primary);
+        }
+
+        .icon-name {
+            font-size: var(--text-small);
+            color: var(--prisma-gray);
+        }
+
+        /* Estructuras específicas */
+        .metric-item {
+            text-align: center;
+        }
+
+        .metric-number {
+            font-size: var(--text-hero);
+            color: var(--prisma-primary);
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: var(--space-sm);
+        }
+
+        .metric-label {
+            font-size: var(--text-body);
+            font-weight: 600;
+            margin-bottom: var(--space-xs);
+        }
+
+        .metric-description {
+            font-size: var(--text-small);
+            color: var(--prisma-gray);
+        }
+
+        .service-item {
+            text-align: center;
+            padding: var(--space-xl);
+            border-radius: var(--radius-lg);
+            background: var(--prisma-light-gray);
+            transition: all 0.2s ease;
+        }
+
+        .service-item:hover {
+            background: var(--prisma-primary-light);
+        }
+
+        .service-icon {
+            display: block;
+            margin: 0 auto var(--space-lg);
+            color: var(--prisma-primary);
+        }
+
+        .service-title {
+            font-size: var(--text-subtitle);
+            font-weight: 600;
+            margin-bottom: var(--space-sm);
+        }
+
+        .service-description {
+            font-size: var(--text-small);
+            color: var(--prisma-gray);
+            margin-bottom: var(--space-lg);
+        }
+
+        .service-price {
+            font-size: var(--text-title);
+            color: var(--prisma-primary);
+            font-weight: 700;
+        }
+
+        .keypoint-item {
+            display: flex;
+            align-items: flex-start;
+            gap: var(--space-md);
+            margin-bottom: var(--space-lg);
+        }
+
+        .keypoint-icon {
+            color: var(--prisma-primary);
+            font-size: var(--icon-lg);
+            margin-top: var(--space-xs);
+        }
+
+        .keypoint-content h4 {
+            font-size: var(--text-body);
+            font-weight: 600;
+            margin-bottom: var(--space-xs);
+        }
+
+        .keypoint-content p {
+            font-size: var(--text-small);
+            color: var(--prisma-gray);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="section">
+            <h1 class="text-hero" style="text-align: center; margin-bottom: var(--space-lg);">
+                <span class="icon icon-xl" style="vertical-align: middle;">palette</span>
+                Prisma v5 Design System
+            </h1>
+            <p class="text-body" style="text-align: center; color: var(--prisma-gray); max-width: 600px; margin: 0 auto;">
+                Sistema de diseño premium para presentaciones profesionales. Simple, elegante y escalable.
+            </p>
+        </div>
+
+        <!-- Colores -->
+        <div class="section">
+            <h2 class="section-title">
+                <span class="icon">palette</span>
+                Paleta de Colores
+            </h2>
+            <div class="color-palette">
+                <div class="color-swatch">
+                    <div class="color-box" style="background: var(--prisma-primary);"></div>
+                    <div class="color-name">Primary</div>
+                    <div class="color-value">#bf3e48</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-box" style="background: var(--prisma-primary-hover);"></div>
+                    <div class="color-name">Primary Hover</div>
+                    <div class="color-value">#a03441</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-box" style="background: var(--prisma-dark);"></div>
+                    <div class="color-name">Dark</div>
+                    <div class="color-value">#1a1a1a</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-box" style="background: var(--prisma-gray);"></div>
+                    <div class="color-name">Gray</div>
+                    <div class="color-value">#6b7280</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-box" style="background: var(--prisma-light-gray); border: 1px solid #e5e7eb;"></div>
+                    <div class="color-name">Light Gray</div>
+                    <div class="color-value">#f9fafb</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tipografía -->
+        <div class="section">
+            <h2 class="section-title">
+                <span class="icon">text_fields</span>
+                Tipografía Equilibrada
+            </h2>
+            <div style="margin-bottom: var(--space-2xl);">
+                <div class="text-hero" style="margin-bottom: var(--space-lg);">Hero Text - Títulos Principales</div>
+                <div class="text-title" style="margin-bottom: var(--space-lg);">Title Text - Títulos de Sección</div>
+                <div class="text-subtitle" style="margin-bottom: var(--space-lg);">Subtitle Text - Subtítulos</div>
+                <div class="text-body" style="margin-bottom: var(--space-lg);">Body Text - Texto Normal</div>
+                <div class="text-small">Small Text - Texto Pequeño</div>
+            </div>
+        </div>
+
+        <!-- Sistema de Iconos -->
+        <div class="section">
+            <h2 class="section-title">
+                <span class="icon">emoji_symbols</span>
+                Sistema de Iconos
+            </h2>
+            <div class="icon-grid">
+                <div class="icon-example">
+                    <span class="icon icon-xl">business</span>
+                    <div class="icon-name">business</div>
+                </div>
+                <div class="icon-example">
+                    <span class="icon icon-xl">trending_up</span>
+                    <div class="icon-name">trending_up</div>
+                </div>
+                <div class="icon-example">
+                    <span class="icon icon-xl">star</span>
+                    <div class="icon-name">star</div>
+                </div>
+                <div class="icon-example">
+                    <span class="icon icon-xl">inventory</span>
+                    <div class="icon-name">inventory</div>
+                </div>
+                <div class="icon-example">
+                    <span class="icon icon-xl">speed</span>
+                    <div class="icon-name">speed</div>
+                </div>
+                <div class="icon-example">
+                    <span class="icon icon-xl">campaign</span>
+                    <div class="icon-name">campaign</div>
+                </div>
+                <div class="icon-example">
+                    <span class="icon icon-xl">analytics</span>
+                    <div class="icon-name">analytics</div>
+                </div>
+                <div class="icon-example">
+                    <span class="icon icon-xl">schedule</span>
+                    <div class="icon-name">schedule</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Estructuras de Presentación -->
+        <div class="section">
+            <h2 class="section-title">
+                <span class="icon">dashboard</span>
+                Estructuras de Presentación
+            </h2>
+            
+            <!-- Texto 1 Columna -->
+            <div class="card" style="margin-bottom: var(--space-2xl);">
+                <div class="card-header">
+                    <span class="icon">article</span>
+                    <h3 class="card-title">Texto 1 Columna</h3>
+                </div>
+                <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                    <h3 class="text-subtitle" style="margin-bottom: var(--space-lg);">Título Principal</h3>
+                    <p class="text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                </div>
+            </div>
+
+            <!-- Texto 2 Columnas -->
+            <div class="card" style="margin-bottom: var(--space-2xl);">
+                <div class="card-header">
+                    <span class="icon">view_column</span>
+                    <h3 class="card-title">Texto 2 Columnas</h3>
+                </div>
+                <div class="grid grid-2">
+                    <div>
+                        <h4 class="text-subtitle" style="margin-bottom: var(--space-md);">Columna Izquierda</h4>
+                        <p class="text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div>
+                        <h4 class="text-subtitle" style="margin-bottom: var(--space-md);">Columna Derecha</h4>
+                        <p class="text-body">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lista con Iconos -->
+            <div class="card" style="margin-bottom: var(--space-2xl);">
+                <div class="card-header">
+                    <span class="icon">checklist</span>
+                    <h3 class="card-title">Lista con Iconos</h3>
+                </div>
+                <div class="grid grid-2">
+                    <div class="keypoint-item">
+                        <span class="icon keypoint-icon">check_circle</span>
+                        <div class="keypoint-content">
+                            <h4>Elemento 1</h4>
+                            <p>Descripción del elemento</p>
+                        </div>
+                    </div>
+                    <div class="keypoint-item">
+                        <span class="icon keypoint-icon">star</span>
+                        <div class="keypoint-content">
+                            <h4>Elemento 2</h4>
+                            <p>Descripción del elemento</p>
+                        </div>
+                    </div>
+                    <div class="keypoint-item">
+                        <span class="icon keypoint-icon">trending_up</span>
+                        <div class="keypoint-content">
+                            <h4>Elemento 3</h4>
+                            <p>Descripción del elemento</p>
+                        </div>
+                    </div>
+                    <div class="keypoint-item">
+                        <span class="icon keypoint-icon">analytics</span>
+                        <div class="keypoint-content">
+                            <h4>Elemento 4</h4>
+                            <p>Descripción del elemento</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Métricas -->
+            <div class="card" style="margin-bottom: var(--space-2xl);">
+                <div class="card-header">
+                    <span class="icon">analytics</span>
+                    <h3 class="card-title">Métricas y Resultados</h3>
+                </div>
+                <div class="grid grid-3">
+                    <div class="metric-item">
+                        <div class="metric-number">45%</div>
+                        <div class="metric-label">Mejora</div>
+                        <div class="metric-description">En satisfacción</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="metric-number">67%</div>
+                        <div class="metric-label">Reducción</div>
+                        <div class="metric-description">Tiempo de carga</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="metric-number">89%</div>
+                        <div class="metric-label">Aumento</div>
+                        <div class="metric-description">En accesibilidad</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Servicios -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="icon">business_center</span>
+                    <h3 class="card-title">Servicios y Precios</h3>
+                </div>
+                <div class="grid grid-3">
+                    <div class="service-item">
+                        <span class="icon service-icon icon-xl">web</span>
+                        <h4 class="service-title">Desarrollo Web</h4>
+                        <p class="service-description">Plataformas web profesionales</p>
+                        <div class="service-price">3.200€</div>
+                    </div>
+                    <div class="service-item">
+                        <span class="icon service-icon icon-xl">campaign</span>
+                        <h4 class="service-title">Marketing Digital</h4>
+                        <p class="service-description">Estrategias de crecimiento</p>
+                        <div class="service-price">800€/mes</div>
+                    </div>
+                    <div class="service-item">
+                        <span class="icon service-icon icon-xl">analytics</span>
+                        <h4 class="service-title">Analítica</h4>
+                        <p class="service-description">Optimización continua</p>
+                        <div class="service-price">Incluido</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

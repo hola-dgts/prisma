@@ -1,0 +1,302 @@
+/* ========================================
+   PRISMA v5 - BASE DE PRESENTACIONES
+   Estrategia v4: Sin marcos, pantalla completa
+   ======================================== */
+
+/* ========================================
+   VARIABLES CSS - DESIGN TOKENS
+   ======================================== */
+
+:root {
+  /* Colores principales */
+  --prisma-red: #bf3e48;
+  --prisma-red-hover: #a03441;
+  --prisma-red-light: #fdf2f3;
+  
+  /* Colores de texto */
+  --prisma-text-primary: #1F2937;
+  --prisma-text-secondary: #6B7280;
+  --prisma-text-muted: #9CA3AF;
+  --prisma-text-inverse: #FFFFFF;
+  
+  /* Colores de fondo */
+  --prisma-bg-primary: #FFFFFF;
+  --prisma-bg-secondary: #F9FAFB;
+  --prisma-bg-muted: #F3F4F6;
+  
+  /* Efectos Liquid Glass */
+  --prisma-glass: rgba(255, 255, 255, 0.1);
+  --prisma-glass-strong: rgba(255, 255, 255, 0.2);
+  --prisma-blur-light: 12px;
+  --prisma-blur-medium: 20px;
+  --prisma-blur-strong: 32px;
+  
+  /* Espaciados fluidos */
+  --prisma-spacing-xs: clamp(0.25rem, 0.5vw, 0.5rem);
+  --prisma-spacing-sm: clamp(0.5rem, 1vw, 0.75rem);
+  --prisma-spacing-md: clamp(0.75rem, 1.5vw, 1rem);
+  --prisma-spacing-lg: clamp(1rem, 2vw, 1.5rem);
+  --prisma-spacing-xl: clamp(1.5rem, 3vw, 2rem);
+  --prisma-spacing-2xl: clamp(2rem, 4vw, 3rem);
+  --prisma-spacing-3xl: clamp(3rem, 6vw, 4rem);
+  
+  /* Tipografía fluida */
+  --prisma-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --prisma-font-size-xs: clamp(0.75rem, 1.5vw, 0.875rem);
+  --prisma-font-size-sm: clamp(0.875rem, 1.75vw, 1rem);
+  --prisma-font-size-base: clamp(1rem, 2vw, 1.125rem);
+  --prisma-font-size-lg: clamp(1.125rem, 2.25vw, 1.25rem);
+  --prisma-font-size-xl: clamp(1.25rem, 2.5vw, 1.5rem);
+  --prisma-font-size-2xl: clamp(1.5rem, 3vw, 2rem);
+  --prisma-font-size-3xl: clamp(2rem, 4vw, 2.5rem);
+  --prisma-font-size-4xl: clamp(2.5rem, 5vw, 3.5rem);
+  --prisma-font-size-5xl: clamp(3.5rem, 7vw, 5rem);
+  
+  /* Z-index layers */
+  --prisma-z-base: 1;
+  --prisma-z-sticky: 10;
+  --prisma-z-toolbar: 50;
+  --prisma-z-modal: 100;
+  
+  /* Transiciones */
+  --prisma-easing: cubic-bezier(0.4, 0, 0.2, 1);
+  --prisma-duration-fast: 150ms;
+  --prisma-duration-normal: 300ms;
+  --prisma-duration-slow: 500ms;
+  
+  /* Sombras */
+  --prisma-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --prisma-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --prisma-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --prisma-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* ========================================
+   RESET Y BASE
+   ======================================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* ========================================
+   LAYOUT PRINCIPAL - SIN MARCOS
+   ======================================== */
+
+.prisma-presentation {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  font-family: var(--prisma-font-family);
+  color: var(--prisma-text-primary);
+  overflow: hidden;
+}
+
+/* ========================================
+   SLIDE CONTAINER - PANTALLA COMPLETA
+   ======================================== */
+
+.prisma-slide {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+  /* SIN MARCO - Estrategia v4 */
+  background: none;
+  backdrop-filter: none;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  overflow: visible;
+  
+  /* Transiciones suaves */
+  transition: opacity 0.6s var(--prisma-easing), 
+              transform 0.6s var(--prisma-easing);
+  will-change: opacity, transform;
+}
+
+/* ========================================
+   HEADER DE SLIDE - STICKY
+   ======================================== */
+
+.prisma-slide__header {
+  background: var(--prisma-glass);
+  backdrop-filter: blur(var(--prisma-blur-light));
+  -webkit-backdrop-filter: blur(var(--prisma-blur-light));
+  border-bottom: 1px solid rgba(200, 200, 200, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: var(--prisma-z-sticky);
+  flex: 0 0 auto;
+  
+  /* Márgenes de seguridad fluidos */
+  padding: var(--prisma-spacing-xl) var(--prisma-spacing-2xl) var(--prisma-spacing-lg) var(--prisma-spacing-2xl);
+}
+
+.prisma-slide__title {
+  margin: 0;
+  font-size: var(--prisma-font-size-4xl);
+  font-weight: 700;
+  text-align: left;
+  color: var(--prisma-text-primary);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+/* ========================================
+   BODY DE SLIDE - CONTENIDO PRINCIPAL
+   ======================================== */
+
+.prisma-slide__body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+  /* Márgenes de seguridad responsivos - Estrategia v4 */
+  padding: var(--prisma-spacing-2xl);
+  
+  /* Permitir scroll si el contenido es muy largo */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* ========================================
+   VARIANTES POR TIPO DE SLIDE
+   ======================================== */
+
+/* Slides centrados: cover, index, section_index, closing */
+.prisma-slide__body--centered {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Slides de contenido: content, title, highlight, keypoints */
+.prisma-slide__body--content {
+  align-items: flex-start;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+/* Slides de media: image, video */
+.prisma-slide__body--media {
+  justify-content: center;
+  align-items: center;
+  padding: var(--prisma-spacing-lg);
+}
+
+/* ========================================
+   RESPONSIVE - MÁRGENES DE SEGURIDAD v4
+   ======================================== */
+
+/* Desktop: Márgenes generosos para legibilidad */
+@media (min-width: 1200px) {
+  .prisma-slide__body {
+    padding: clamp(3rem, 6vw, 5rem);
+  }
+  
+  .prisma-slide__body--media {
+    padding: clamp(2rem, 4vw, 3rem);
+  }
+}
+
+/* Desktop medio: Márgenes estándar */
+@media (max-width: 1199px) and (min-width: 1024px) {
+  .prisma-slide__body {
+    padding: clamp(2.5rem, 5vw, 4rem);
+  }
+  
+  .prisma-slide__body--media {
+    padding: clamp(1.5rem, 3vw, 2.5rem);
+  }
+}
+
+/* Tablet: Márgenes reducidos pero seguros */
+@media (max-width: 1023px) and (min-width: 769px) {
+  .prisma-slide__body {
+    padding: clamp(2rem, 4vw, 3rem);
+  }
+  
+  .prisma-slide__body--media {
+    padding: clamp(1rem, 2vw, 2rem);
+  }
+}
+
+/* Mobile: Márgenes mínimos + SCROLL PERMITIDO - Estrategia v4 */
+@media (max-width: 768px) {
+  .prisma-slide__body {
+    /* Márgenes mínimos de seguridad */
+    padding: clamp(1rem, 3vw, 1.5rem);
+    
+    /* IMPORTANTE: Permitir scroll vertical en mobile */
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+    /* Altura flexible para contenido largo */
+    min-height: calc(100vh - 60px); /* Espacio para toolbar */
+    height: auto;
+  }
+  
+  .prisma-slide__body--media {
+    padding: clamp(0.5rem, 2vw, 1rem);
+  }
+  
+  /* Slide container flexible en mobile */
+  .prisma-slide {
+    min-height: 100vh;
+    height: auto;
+    overflow: visible;
+  }
+  
+  /* Contenido puede desbordarse y hacer scroll */
+  .prisma-presentation {
+    overflow: visible;
+  }
+}
+
+/* ========================================
+   UTILIDADES DE LAYOUT
+   ======================================== */
+
+.prisma-flex { display: flex; }
+.prisma-flex-col { flex-direction: column; }
+.prisma-flex-row { flex-direction: row; }
+.prisma-items-center { align-items: center; }
+.prisma-items-start { align-items: flex-start; }
+.prisma-justify-center { justify-content: center; }
+.prisma-justify-start { justify-content: flex-start; }
+.prisma-text-center { text-align: center; }
+.prisma-text-left { text-align: left; }
+
+/* ========================================
+   ANIMACIONES DE TRANSICIÓN
+   ======================================== */
+
+.prisma-slide-enter {
+  opacity: 0;
+  transform: translateX(100px);
+}
+
+.prisma-slide-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity var(--prisma-duration-slow) var(--prisma-easing),
+              transform var(--prisma-duration-slow) var(--prisma-easing);
+}
+
+.prisma-slide-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.prisma-slide-exit-active {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity var(--prisma-duration-slow) var(--prisma-easing),
+              transform var(--prisma-duration-slow) var(--prisma-easing);
+}

@@ -1,0 +1,342 @@
+/* ========================================
+   PRISMA v5 - TIPOGRAFÍA DE PRESENTACIONES
+   Estrategia v4: System blink font + tipografía fluida
+   ======================================== */
+
+/* ========================================
+   TIPOGRAFÍA BASE
+   ======================================== */
+
+.prisma-text {
+  font-family: var(--prisma-font-family);
+  line-height: 1.6;
+  color: var(--prisma-text-primary);
+}
+
+/* ========================================
+   JERARQUÍA TIPOGRÁFICA FLUIDA
+   ======================================== */
+
+/* Títulos principales */
+.prisma-heading-1 {
+  font-size: var(--prisma-font-size-5xl);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: var(--prisma-text-primary);
+  margin: 0 0 var(--prisma-spacing-xl) 0;
+}
+
+.prisma-heading-2 {
+  font-size: var(--prisma-font-size-4xl);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--prisma-text-primary);
+  margin: 0 0 var(--prisma-spacing-lg) 0;
+}
+
+.prisma-heading-3 {
+  font-size: var(--prisma-font-size-3xl);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--prisma-text-primary);
+  margin: 0 0 var(--prisma-spacing-lg) 0;
+}
+
+.prisma-heading-4 {
+  font-size: var(--prisma-font-size-2xl);
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--prisma-text-primary);
+  margin: 0 0 var(--prisma-spacing-md) 0;
+}
+
+.prisma-heading-5 {
+  font-size: var(--prisma-font-size-xl);
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--prisma-text-secondary);
+  margin: 0 0 var(--prisma-spacing-md) 0;
+}
+
+/* ========================================
+   TEXTO DE CUERPO FLUIDO
+   ======================================== */
+
+.prisma-text-body {
+  font-size: var(--prisma-font-size-lg);
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--prisma-text-secondary);
+  margin: 0 0 var(--prisma-spacing-lg) 0;
+}
+
+.prisma-text-body-large {
+  font-size: var(--prisma-font-size-xl);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--prisma-text-secondary);
+  margin: 0 0 var(--prisma-spacing-lg) 0;
+}
+
+.prisma-text-body-small {
+  font-size: var(--prisma-font-size-base);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--prisma-text-tertiary);
+  margin: 0 0 var(--prisma-spacing-md) 0;
+}
+
+/* ========================================
+   TEXTO ESPECIALIZADO
+   ======================================== */
+
+.prisma-text-subtitle {
+  font-size: var(--prisma-font-size-xl);
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--prisma-text-tertiary);
+  margin: 0 0 var(--prisma-spacing-xl) 0;
+}
+
+.prisma-text-caption {
+  font-size: var(--prisma-font-size-sm);
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--prisma-text-subtle);
+  margin: 0 0 var(--prisma-spacing-sm) 0;
+}
+
+.prisma-text-overline {
+  font-size: var(--prisma-font-size-xs);
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--prisma-text-subtle);
+  margin: 0 0 var(--prisma-spacing-sm) 0;
+}
+
+/* ========================================
+   TEXTO DE ÉNFASIS
+   ======================================== */
+
+.prisma-text-highlight {
+  background: linear-gradient(120deg, var(--prisma-primary-light) 0%, var(--prisma-primary-light) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  padding: 0 0.2em;
+}
+
+.prisma-text-accent {
+  color: var(--prisma-primary);
+  font-weight: 600;
+}
+
+.prisma-text-muted {
+  color: var(--prisma-text-muted);
+}
+
+.prisma-text-subtle {
+  color: var(--prisma-text-subtle);
+}
+
+/* ========================================
+   LISTAS FLUIDAS
+   ======================================== */
+
+.prisma-list {
+  margin: 0 0 var(--prisma-spacing-lg) 0;
+  padding-left: var(--prisma-spacing-xl);
+}
+
+.prisma-list-item {
+  font-size: var(--prisma-font-size-lg);
+  line-height: 1.7;
+  color: var(--prisma-text-secondary);
+  margin-bottom: var(--prisma-spacing-md);
+}
+
+.prisma-list-item::marker {
+  color: var(--prisma-primary);
+}
+
+/* Lista sin bullets */
+.prisma-list-clean {
+  list-style: none;
+  padding-left: 0;
+}
+
+.prisma-list-clean .prisma-list-item {
+  position: relative;
+  padding-left: var(--prisma-spacing-lg);
+}
+
+.prisma-list-clean .prisma-list-item::before {
+  content: "•";
+  color: var(--prisma-primary);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+/* ========================================
+   CITAS Y TESTIMONIOS
+   ======================================== */
+
+.prisma-quote {
+  font-size: var(--prisma-font-size-2xl);
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--prisma-text-primary);
+  font-style: italic;
+  position: relative;
+  padding: var(--prisma-spacing-xl) var(--prisma-spacing-2xl);
+  margin: var(--prisma-spacing-2xl) 0;
+}
+
+.prisma-quote::before {
+  content: "“";
+  font-size: var(--prisma-font-size-5xl);
+  color: var(--prisma-primary);
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 1;
+}
+
+.prisma-quote-author {
+  font-size: var(--prisma-font-size-lg);
+  font-weight: 500;
+  font-style: normal;
+  color: var(--prisma-text-tertiary);
+  margin-top: var(--prisma-spacing-lg);
+}
+
+.prisma-quote-author::before {
+  content: "— ";
+  color: var(--prisma-primary);
+}
+
+/* ========================================
+   MÉTRICAS Y NÚMEROS
+   ======================================== */
+
+.prisma-metric {
+  text-align: center;
+  margin: var(--prisma-spacing-xl) 0;
+}
+
+.prisma-metric-number {
+  font-size: var(--prisma-font-size-5xl);
+  font-weight: 800;
+  line-height: 1;
+  color: var(--prisma-primary);
+  display: block;
+  margin-bottom: var(--prisma-spacing-sm);
+}
+
+.prisma-metric-label {
+  font-size: var(--prisma-font-size-lg);
+  font-weight: 500;
+  color: var(--prisma-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ========================================
+   RESPONSIVE TYPOGRAPHY
+   ======================================== */
+
+/* Mobile: Ajustes específicos */
+@media (max-width: 768px) {
+  .prisma-heading-1 {
+    margin-bottom: var(--prisma-spacing-lg);
+  }
+  
+  .prisma-heading-2 {
+    margin-bottom: var(--prisma-spacing-md);
+  }
+  
+  .prisma-text-body {
+    margin-bottom: var(--prisma-spacing-md);
+  }
+  
+  .prisma-quote {
+    padding: var(--prisma-spacing-lg);
+    margin: var(--prisma-spacing-lg) 0;
+  }
+  
+  .prisma-list {
+    padding-left: var(--prisma-spacing-lg);
+  }
+}
+
+/* ========================================
+   ENLACES
+   ======================================== */
+
+.prisma-slide a,
+.prisma-slide .prisma-link {
+  color: var(--prisma-primary);
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: all var(--prisma-duration-fast) var(--prisma-easing);
+}
+
+.prisma-slide a:hover,
+.prisma-slide .prisma-link:hover {
+  color: var(--prisma-red-hover);
+  border-bottom-color: var(--prisma-primary);
+  transform: translateY(-1px);
+}
+
+.prisma-slide a:active,
+.prisma-slide .prisma-link:active {
+  transform: translateY(0);
+}
+
+/* Enlaces en contextos específicos */
+.prisma-slide--cover a,
+.prisma-slide--cover .prisma-link {
+  font-weight: 600;
+  font-size: var(--prisma-font-size-lg);
+}
+
+.prisma-slide--content a,
+.prisma-slide--content .prisma-link {
+  border-bottom: 1px solid rgba(191, 62, 72, 0.3);
+}
+
+.prisma-slide--content a:hover,
+.prisma-slide--content .prisma-link:hover {
+  border-bottom-color: var(--prisma-primary);
+  background: var(--prisma-red-light);
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin: -2px -4px;
+}
+
+/* ========================================
+   UTILIDADES DE TEXTO
+   ======================================== */
+
+.prisma-text-center { text-align: center; }
+.prisma-text-left { text-align: left; }
+.prisma-text-right { text-align: right; }
+.prisma-text-justify { text-align: justify; }
+
+.prisma-font-normal { font-weight: 400; }
+.prisma-font-medium { font-weight: 500; }
+.prisma-font-semibold { font-weight: 600; }
+.prisma-font-bold { font-weight: 700; }
+.prisma-font-extrabold { font-weight: 800; }
+
+.prisma-italic { font-style: italic; }
+.prisma-uppercase { text-transform: uppercase; }
+.prisma-lowercase { text-transform: lowercase; }
+.prisma-capitalize { text-transform: capitalize; }

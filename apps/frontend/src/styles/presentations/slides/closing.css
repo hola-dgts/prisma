@@ -1,0 +1,332 @@
+/* ========================================
+   PRISMA V5 - CLOSING SLIDE STYLES
+   Slide type: closing
+   Purpose: Final slide with CTA and contact
+   ======================================== */
+
+.prisma-closing__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: clamp(2rem, 5vw, 4rem);
+  text-align: center;
+  position: relative;
+}
+
+.prisma-closing__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, 
+    rgba(220, 38, 38, 0.1) 0%, 
+    rgba(220, 38, 38, 0.05) 30%, 
+    transparent 60%, 
+    rgba(220, 38, 38, 0.05) 100%);
+  z-index: 0;
+}
+
+.prisma-closing__content {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  width: 100%;
+}
+
+.prisma-closing__title {
+  font-size: clamp(3rem, 7vw, 5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--prisma-text-primary);
+  margin-bottom: clamp(1rem, 2vw, 1.5rem);
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+.prisma-closing__subtitle {
+  font-size: clamp(1.3rem, 2.8vw, 2rem);
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--prisma-text-secondary);
+  margin-bottom: clamp(2rem, 4vw, 3rem);
+  opacity: 0.8;
+}
+
+.prisma-closing__message {
+  font-size: clamp(1.1rem, 2.2vw, 1.6rem);
+  line-height: 1.5;
+  color: var(--prisma-text-secondary);
+  margin-bottom: clamp(2.5rem, 5vw, 4rem);
+  opacity: 0.9;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prisma-closing__cta-section {
+  margin-bottom: clamp(3rem, 6vw, 4rem);
+}
+
+.prisma-closing__cta-title {
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  font-weight: 600;
+  color: var(--prisma-text-primary);
+  margin-bottom: clamp(1.5rem, 3vw, 2rem);
+}
+
+.prisma-closing__cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: clamp(1rem, 2vw, 1.5rem);
+  flex-wrap: wrap;
+}
+
+.prisma-closing__cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: clamp(1rem, 2vw, 1.25rem) clamp(2rem, 4vw, 2.5rem);
+  border: none;
+  border-radius: 50px;
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  min-width: clamp(160px, 25vw, 200px);
+  justify-content: center;
+}
+
+.prisma-closing__cta-button--primary {
+  background: linear-gradient(135deg, var(--prisma-accent), rgba(220, 38, 38, 0.8));
+  color: white;
+  box-shadow: 0 4px 20px rgba(220, 38, 38, 0.3);
+}
+
+.prisma-closing__cta-button--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(220, 38, 38, 0.4);
+  background: linear-gradient(135deg, rgba(220, 38, 38, 0.9), var(--prisma-accent));
+}
+
+.prisma-closing__cta-button--secondary {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--prisma-text-primary);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.prisma-closing__cta-button--secondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(220, 38, 38, 0.4);
+  color: var(--prisma-accent);
+  transform: translateY(-2px);
+}
+
+.prisma-closing__contact-section {
+  margin-bottom: clamp(2rem, 4vw, 3rem);
+}
+
+.prisma-closing__contact-title {
+  font-size: clamp(1.2rem, 2.2vw, 1.6rem);
+  font-weight: 600;
+  color: var(--prisma-text-primary);
+  margin-bottom: clamp(1rem, 2vw, 1.5rem);
+}
+
+.prisma-closing__contact-info {
+  display: flex;
+  justify-content: center;
+  gap: clamp(2rem, 4vw, 3rem);
+  flex-wrap: wrap;
+}
+
+.prisma-closing__contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: clamp(1rem, 2vw, 1.5rem);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+  min-width: clamp(150px, 20vw, 200px);
+}
+
+.prisma-closing__contact-item:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(220, 38, 38, 0.3);
+  transform: translateY(-2px);
+}
+
+.prisma-closing__contact-icon {
+  width: clamp(2rem, 3vw, 2.5rem);
+  height: clamp(2rem, 3vw, 2.5rem);
+  background: rgba(220, 38, 38, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: clamp(0.75rem, 1.5vw, 1rem);
+  color: var(--prisma-accent);
+}
+
+.prisma-closing__contact-label {
+  font-size: clamp(0.9rem, 1.5vw, 1rem);
+  font-weight: 500;
+  color: var(--prisma-text-secondary);
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.7;
+}
+
+.prisma-closing__contact-value {
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  font-weight: 600;
+  color: var(--prisma-text-primary);
+  text-align: center;
+}
+
+.prisma-closing__social-section {
+  margin-top: clamp(2rem, 4vw, 3rem);
+}
+
+.prisma-closing__social-title {
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  font-weight: 600;
+  color: var(--prisma-text-primary);
+  margin-bottom: clamp(1rem, 2vw, 1.5rem);
+}
+
+.prisma-closing__social-links {
+  display: flex;
+  justify-content: center;
+  gap: clamp(1rem, 2vw, 1.5rem);
+}
+
+.prisma-closing__social-link {
+  width: clamp(3rem, 5vw, 4rem);
+  height: clamp(3rem, 5vw, 4rem);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--prisma-text-primary);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.prisma-closing__social-link:hover {
+  background: rgba(220, 38, 38, 0.2);
+  border-color: rgba(220, 38, 38, 0.4);
+  color: var(--prisma-accent);
+  transform: translateY(-2px);
+}
+
+.prisma-closing__footer {
+  margin-top: clamp(2rem, 4vw, 3rem);
+  padding-top: clamp(1.5rem, 3vw, 2rem);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.prisma-closing__footer-text {
+  font-size: clamp(0.9rem, 1.5vw, 1rem);
+  color: var(--prisma-text-secondary);
+  opacity: 0.6;
+  line-height: 1.4;
+}
+
+.prisma-closing__logo {
+  width: clamp(120px, 20vw, 180px);
+  height: auto;
+  margin: clamp(1.5rem, 3vw, 2rem) auto 0;
+  opacity: 0.8;
+}
+
+.prisma-closing__accent-line {
+  width: clamp(80px, 15vw, 120px);
+  height: 4px;
+  background: linear-gradient(90deg, var(--prisma-accent), transparent);
+  margin: clamp(1.5rem, 3vw, 2rem) auto;
+  border-radius: 2px;
+}
+
+/* QR Code section */
+.prisma-closing__qr-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: clamp(2rem, 4vw, 3rem);
+  padding: clamp(1.5rem, 3vw, 2rem);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prisma-closing__qr-title {
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  font-weight: 600;
+  color: var(--prisma-text-primary);
+  margin-bottom: clamp(1rem, 2vw, 1.5rem);
+}
+
+.prisma-closing__qr-code {
+  width: clamp(120px, 20vw, 150px);
+  height: clamp(120px, 20vw, 150px);
+  background: white;
+  border-radius: 8px;
+  margin-bottom: clamp(0.75rem, 1.5vw, 1rem);
+}
+
+.prisma-closing__qr-description {
+  font-size: clamp(0.8rem, 1.3vw, 0.9rem);
+  color: var(--prisma-text-secondary);
+  opacity: 0.7;
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .prisma-closing__cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .prisma-closing__contact-info {
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(1rem, 2vw, 1.5rem);
+  }
+  
+  .prisma-closing__social-links {
+    gap: clamp(0.75rem, 1.5vw, 1rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .prisma-closing__container {
+    padding: clamp(1.5rem, 4vw, 2.5rem);
+  }
+  
+  .prisma-closing__contact-item {
+    min-width: auto;
+    width: 100%;
+    max-width: 250px;
+  }
+}

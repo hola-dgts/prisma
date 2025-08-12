@@ -1,0 +1,188 @@
+/* ========================================
+   PRISMA V5 - HIGHLIGHT SLIDE STYLES
+   Slide type: highlight
+   Purpose: Key points and important information
+   ======================================== */
+
+.prisma-highlight__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: clamp(2rem, 5vw, 4rem);
+  text-align: center;
+  position: relative;
+}
+
+.prisma-highlight__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at center, 
+    rgba(220, 38, 38, 0.15) 0%, 
+    rgba(220, 38, 38, 0.05) 40%, 
+    transparent 70%);
+  z-index: 0;
+}
+
+.prisma-highlight__content {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  width: 100%;
+}
+
+.prisma-highlight__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: clamp(0.5rem, 1vw, 0.75rem) clamp(1rem, 2vw, 1.5rem);
+  background: rgba(220, 38, 38, 0.1);
+  border: 1px solid rgba(220, 38, 38, 0.3);
+  border-radius: 50px;
+  font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+  font-weight: 600;
+  color: var(--prisma-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.prisma-highlight__title {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--prisma-text-primary);
+  margin-bottom: clamp(1rem, 2vw, 1.5rem);
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+.prisma-highlight__subtitle {
+  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--prisma-text-secondary);
+  margin-bottom: clamp(2rem, 4vw, 3rem);
+  opacity: 0.8;
+}
+
+.prisma-highlight__points {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1rem, 2vw, 1.5rem);
+  margin: clamp(2rem, 4vw, 3rem) 0;
+}
+
+.prisma-highlight__point {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1rem, 2vw, 1.5rem);
+  padding: clamp(1.5rem, 3vw, 2rem);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.prisma-highlight__point:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(220, 38, 38, 0.3);
+  transform: translateY(-2px);
+}
+
+.prisma-highlight__point-icon {
+  width: clamp(2rem, 4vw, 3rem);
+  height: clamp(2rem, 4vw, 3rem);
+  background: rgba(220, 38, 38, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: var(--prisma-accent);
+  flex-shrink: 0;
+}
+
+.prisma-highlight__point-content {
+  flex: 1;
+  text-align: left;
+}
+
+.prisma-highlight__point-title {
+  font-size: clamp(1.2rem, 2.2vw, 1.6rem);
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--prisma-text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.prisma-highlight__point-description {
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  line-height: 1.5;
+  color: var(--prisma-text-secondary);
+  opacity: 0.8;
+}
+
+.prisma-highlight__cta {
+  margin-top: clamp(2rem, 4vw, 3rem);
+}
+
+.prisma-highlight__cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: clamp(1rem, 2vw, 1.25rem) clamp(2rem, 4vw, 2.5rem);
+  background: linear-gradient(135deg, var(--prisma-accent), rgba(220, 38, 38, 0.8));
+  border: none;
+  border-radius: 50px;
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(220, 38, 38, 0.3);
+}
+
+.prisma-highlight__cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(220, 38, 38, 0.4);
+  background: linear-gradient(135deg, rgba(220, 38, 38, 0.9), var(--prisma-accent));
+}
+
+.prisma-highlight__accent-line {
+  width: clamp(80px, 15vw, 120px);
+  height: 4px;
+  background: linear-gradient(90deg, var(--prisma-accent), transparent);
+  margin: clamp(1.5rem, 3vw, 2rem) auto;
+  border-radius: 2px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .prisma-highlight__point {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .prisma-highlight__point-content {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .prisma-highlight__container {
+    padding: clamp(1.5rem, 4vw, 2.5rem);
+  }
+  
+  .prisma-highlight__points {
+    gap: clamp(0.75rem, 1.5vw, 1rem);
+  }
+}

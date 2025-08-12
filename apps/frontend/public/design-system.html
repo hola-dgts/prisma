@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prisma v5 Design System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Two+Tone:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+    <style>
+        /* Design Tokens */
+        :root {
+            /* Colores */
+            --prisma-primary: #bf3e48;
+            --prisma-primary-hover: #a03441;
+            --prisma-primary-light: #fdf2f3;
+            --prisma-dark: #1a1a1a;
+            --prisma-gray: #6b7280;
+            --prisma-light-gray: #f3f4f6;
+            --prisma-white: #ffffff;
+            --prisma-success: #10b981;
+            --prisma-warning: #f59e0b;
+            --prisma-error: #ef4444;
+            --prisma-info: #3b82f6;
+
+            /* Tipografía */
+            --prisma-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            --text-hero: clamp(3rem, 8vw, 6rem);
+            --text-title: clamp(2rem, 5vw, 3.5rem);
+            --text-subtitle: clamp(1.5rem, 3vw, 2rem);
+            --text-body-large: clamp(1.125rem, 2.5vw, 1.5rem);
+            --text-body: clamp(1rem, 2vw, 1.25rem);
+            --text-small: clamp(0.875rem, 1.5vw, 1rem);
+            --text-caption: clamp(0.75rem, 1vw, 0.875rem);
+
+            /* Espaciado */
+            --space-xs: 0.25rem;
+            --space-sm: 0.5rem;
+            --space-md: 1rem;
+            --space-lg: 1.5rem;
+            --space-xl: 2rem;
+            --space-2xl: 3rem;
+            --space-3xl: 4rem;
+            --space-4xl: 6rem;
+            --space-5xl: 8rem;
+
+            /* Iconos */
+            --icon-xs: 16px;
+            --icon-sm: 20px;
+            --icon-md: 24px;
+            --icon-lg: 32px;
+            --icon-xl: 48px;
+            --icon-2xl: 64px;
+        }
+
+        /* Reset y Base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--prisma-font-family);
+            line-height: 1.6;
+            color: var(--prisma-dark);
+            background: var(--prisma-light-gray);
+        }
+
+        /* Layout */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--space-xl);
+        }
+
+        .section {
+            background: var(--prisma-white);
+            border-radius: 12px;
+            padding: var(--space-2xl);
+            margin-bottom: var(--space-xl);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            font-size: var(--text-title);
+            font-weight: 700;
+            color: var(--prisma-primary);
+            margin-bottom: var(--space-xl);
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+        }
+
+        .grid {
+            display: grid;
+            gap: var(--space-lg);
+        }
+
+        .grid-2 { grid-template-columns: repeat(2, 1fr); }
+        .grid-3 { grid-template-columns: repeat(3, 1fr); }
+        .grid-4 { grid-template-columns: repeat(4, 1fr); }
+
+        /* Componentes */
+        .color-swatch {
+            padding: var(--space-lg);
+            border-radius: 8px;
+            color: var(--prisma-white);
+            font-weight: 600;
+            text-align: center;
+            min-height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: var(--space-sm);
+        }
+
+        .color-primary { background: var(--prisma-primary); }
+        .color-dark { background: var(--prisma-dark); }
+        .color-gray { background: var(--prisma-gray); }
+        .color-success { background: var(--prisma-success); }
+        .color-warning { background: var(--prisma-warning); }
+        .color-error { background: var(--prisma-error); }
+        .color-info { background: var(--prisma-info); }
+
+        .typography-sample {
+            padding: var(--space-md);
+            border-left: 4px solid var(--prisma-primary);
+            margin-bottom: var(--space-md);
+        }
+
+        .text-hero { font-size: var(--text-hero); font-weight: 700; }
+        .text-title { font-size: var(--text-title); font-weight: 600; }
+        .text-subtitle { font-size: var(--text-subtitle); font-weight: 500; }
+        .text-body-large { font-size: var(--text-body-large); }
+        .text-body { font-size: var(--text-body); }
+        .text-small { font-size: var(--text-small); }
+        .text-caption { font-size: var(--text-caption); color: var(--prisma-gray); }
+
+        .icon {
+            font-family: 'Material Symbols Outlined';
+            font-size: var(--icon-md);
+            color: var(--prisma-primary);
+            line-height: 1;
+        }
+
+        .icon-two-tone {
+            font-family: 'Material Symbols Two Tone';
+        }
+
+        .icon-xs { font-size: var(--icon-xs); }
+        .icon-sm { font-size: var(--icon-sm); }
+        .icon-md { font-size: var(--icon-md); }
+        .icon-lg { font-size: var(--icon-lg); }
+        .icon-xl { font-size: var(--icon-xl); }
+        .icon-2xl { font-size: var(--icon-2xl); }
+
+        .card {
+            background: var(--prisma-white);
+            border-radius: 12px;
+            padding: var(--space-xl);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .card:hover {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .card-highlight {
+            border: 2px solid var(--prisma-primary);
+            position: relative;
+        }
+
+        .card-highlight::before {
+            content: "RECOMENDADO";
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--prisma-primary);
+            color: var(--prisma-white);
+            padding: var(--space-xs) var(--space-md);
+            border-radius: 20px;
+            font-size: var(--text-caption);
+            font-weight: 600;
+        }
+
+        .btn {
+            padding: var(--space-md) var(--space-xl);
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            border: none;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background: var(--prisma-primary);
+            color: var(--prisma-white);
+        }
+
+        .btn-primary:hover {
+            background: var(--prisma-primary-hover);
+        }
+
+        .btn-secondary {
+            background: var(--prisma-light-gray);
+            color: var(--prisma-dark);
+        }
+
+        .btn-secondary:hover {
+            background: var(--prisma-gray);
+            color: var(--prisma-white);
+        }
+
+        .slide-preview {
+            background: var(--prisma-white);
+            border-radius: 8px;
+            padding: var(--space-lg);
+            border: 2px solid var(--prisma-light-gray);
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .slide-preview:hover {
+            border-color: var(--prisma-primary);
+            box-shadow: 0 4px 12px rgba(191, 62, 72, 0.15);
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--space-lg);
+        }
+
+        .service-card {
+            background: var(--prisma-white);
+            border-radius: 12px;
+            padding: var(--space-xl);
+            text-align: center;
+            border: 1px solid var(--prisma-light-gray);
+            transition: all 0.3s ease;
+        }
+
+        .service-card:hover {
+            border-color: var(--prisma-primary);
+            box-shadow: 0 8px 25px rgba(191, 62, 72, 0.15);
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: var(--space-lg);
+        }
+
+        .pricing-card {
+            background: var(--prisma-white);
+            border-radius: 12px;
+            padding: var(--space-2xl);
+            text-align: center;
+            border: 2px solid var(--prisma-light-gray);
+            transition: all 0.3s ease;
+        }
+
+        .pricing-card:hover {
+            border-color: var(--prisma-primary);
+        }
+
+        .price {
+            font-size: var(--text-title);
+            font-weight: 700;
+            color: var(--prisma-primary);
+            margin: var(--space-md) 0;
+        }
+
+        .features {
+            list-style: none;
+            margin: var(--space-lg) 0;
+        }
+
+        .features li {
+            padding: var(--space-sm) 0;
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+
+        .features li::before {
+            content: "check_circle";
+            font-family: 'Material Symbols Outlined';
+            color: var(--prisma-success);
+            font-size: var(--icon-sm);
+        }
+
+        @media (max-width: 768px) {
+            .grid-2, .grid-3, .grid-4 {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="section">
+            <h1 class="text-hero" style="text-align: center; margin-bottom: var(--space-lg);">
+                <span class="icon icon-2xl" style="vertical-align: middle;">palette</span>
+                Prisma v5 Design System
+            </h1>
+            <p class="text-body-large" style="text-align: center; color: var(--prisma-gray);">
+                Sistema de diseño para presentaciones empresariales escalables y consistentes
+            </p>
+        </div>
+
+        <!-- Colores -->
+        <div class="section">
+            <h2 class="section-title">
+                <span class="icon">color_lens</span>
+                Paleta de Colores
+            </h2>
+            <div class="grid grid-4">
+                <div class="color-swatch color-primary">
+                    <span>Primary</span>
+                    <small>#bf3e48</small>
+                </div>
+                <div class="color-swatch color-dark">
+                    <span>Dark</span>
+                    <small>#1a1a1a</small>
+                </div>
+                <div class="color-swatch color-success">
+                    <span>Success</span>
+                    <small>#10b981</small>
+                </div>
+                <div class="color-swatch color-info">
+                    <span>Info</span>
+                    <small>#3b82f6</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tipografía -->
+        <div class="section">
+            <h2 class="section-title">
+                <span class="icon">text_fields</span>
+                Escala Tipográfica
+            </h2>
+            <div class="typography-sample">
+                <div class="text-hero">Hero Text</div>
+                <div class="text-caption">Font size: clamp(3rem, 8vw, 6rem) • Weight: 700</div>
+            </div>
+            <div class="typography-sample">
+                <div class="text-title">Title Text</div>
+                <div class="text-caption">Font size: clamp(2rem, 5vw, 3.5rem) • Weight: 600</div>
+            </div>
+            <div class="typography-sample">
+                <div class="text-subtitle">Subtitle Text</div>
+                <div class="text-caption">Font size: clamp(1.5rem, 3vw, 2rem) • Weight: 500</div>
+            </div>
+            <div class="typography-sample">
+                <div class="text-body-large">Body Large Text</div>
+                <div class="text-caption">Font size: clamp(1.125rem, 2.5vw, 1.5rem) • Weight: 400</div>
+            </div>
+            <div class="typography-sample">
+                <div class="text-body">Body Text</div>
+                <div class="text-caption">Font size: clamp(1rem, 2vw, 1.25rem) • Weight: 400</div>
+            </div>
+        </div>
+
+        <!-- Iconos -->
+        <div class="section">
+            <h2 class="section-title">
+                <span class="icon">emoji_symbols</span>
+                Sistema de Iconos
+            </h2>
+            <div class="grid grid-3">
+                <div style="text-align: center;">
+                    <h3 class="text-subtitle" style="margin-bottom: var(--space-lg);">Outlined</h3>
+                    <div style="display: flex; align-items: center; justify-content: center; gap: var(--space-md); margin-bottom: var(--space-md);">
+                        <span class="icon icon-xs">star</span>
+                        <span class="icon icon-sm">star</span>
+                        <span class="icon icon-md">star</span>
+                        <span class="icon icon-lg">star</span>
+                        <span class="icon icon-xl">star</span>
+                    </div>
+                    <div class="text-caption">16px • 20px • 24px • 32px • 48px</div>
+                </div>
+                <div style="text-align: center;">
+                    <h3 class="text-subtitle" style="margin-bottom: var(--space-lg);">Two Tone</h3>
+                    <div style="display: flex; align-items: center; justify-content: center; gap: var(--space-md); margin-bottom: var(--space-md);">
+                        <span class="icon icon-two-tone icon-xs">star</span>
+                        <span class="icon icon-two-tone icon-sm">star</span>
+                        <span class="icon icon-two-tone icon-md">star</span>
+                        <span class="icon icon-two-tone icon-lg">star</span>
+                        <span class="icon icon-two-tone icon-xl">star</span>
+                    </div>
+                    <div class="text-caption">Para elementos destacados</div>
+                </div>
+                <div style="text-align: center;">
+                    <h3 class="text-subtitle" style="margin-bottom: var(--space-lg);">Iconos Comunes</h3>
+                    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); margin-bottom: var(--space-md);">
+                        <span class="icon icon-lg">campaign</span>
+                        <span class="icon icon-lg">analytics</span>
+                        <span class="icon icon-lg">trending_up</span>
+                        <span class="icon icon-lg">groups</span>
+                        <span class="icon icon-lg">rocket_launch</span>
+                        <span class="icon icon-lg">speed</span>
+                    </div>
+                    <div class="text-caption">Material Symbols Library</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Componentes -->
+        <div class="section">
+            <h2 class="section-title">
+                <span class="icon">widgets</span>
+                Componentes Base
+            </h2>
+            <div class="grid grid-2">
+                <div>
+                    <h3 class="text-subtitle" style="margin-bottom: var(--space-lg);">Botones</h3>
+                    <div style="display: flex; gap: var(--space-md); margin-bottom: var(--space-lg);">
+                        <button class="btn btn-primary">Primary Button</button>
+                        <button class="btn btn-secondary">Secondary Button</button>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-subtitle" style="margin-bottom: var(--space-lg);">Cards</h3>
+                    <div class="card" style="margin-bottom: var(--space-md);">
+                        <span class="icon icon-lg" style="margin-bottom: var(--space-md);">business</span>
+                        <h4 class="text-body-large">Card Title</h4>
+                        <p class="text-small" style="color: var(--prisma-gray);">Card description text</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Composiciones de Slides -->
+        <div class="section">
+            <h2 class="section-title">
+                <span class="icon">dashboard</span>
+                Tipos de Slides
+            </h2>
+            <div class="grid grid-3">
+                <div class="slide-preview">
+                    <span class="icon icon-xl" style="margin-bottom: var(--space-md);">home</span>
+                    <h4 class="text-body-large">Cover</h4>
+                    <p class="text-small" style="color: var(--prisma-gray);">Portada de presentación</p>
+                </div>
+                <div class="slide-preview">
+                    <span class="icon icon-xl" style="margin-bottom: var(--space-md);">list</span>
+                    <h4 class="text-body-large">Index</h4>
+                    <p class="text-small" style="color: var(--prisma-gray);">Tabla de contenidos</p>
+                </div>
+                <div class="slide-preview">
+                    <span class="icon icon-xl" style="margin-bottom: var(--space-md);">article</span>
+                    <h4 class="text-body-large">Content</h4>
+                    <p class="text-small" style="color: var(--prisma-gray);">Contenido general</p>
+                </div>
+                <div class="slide-preview">
+                    <span class="icon icon-xl" style="margin-bottom: var(--space-md);">grid_view</span>
+                    <h4 class="text-body-large">Service Grid</h4>
+                    <p class="text-small" style="color: var(--prisma-gray);">Grid de servicios</p>
+                </div>
+                <div class="slide-preview">
+                    <span class="icon icon-xl" style="margin-bottom: var(--space-md);">payments</span>
+                    <h4 class="text-body-large">Pricing Cards</h4>
+                    <p class="text-small" style="color: var(--prisma-gray);">Paquetes y precios</p>
+                </div>
+                <div class="slide-preview">
+                    <span class="icon icon-xl" style="margin-bottom: var(--space-md);">timeline</span>
+                    <h4 class="text-body-large">Process Flow</h4>
+                    <p class="text-small" style="color: var(--prisma-gray);">Procesos y metodologías</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ejemplo Service Grid -->
+        <div class="section">
+            <h2 class="section-title">
+                <span class="icon">grid_view</span>
+                Ejemplo: Service Grid
+            </h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <span class="icon icon-two-tone icon-2xl" style="margin-bottom: var(--space-lg);">campaign</span>
+                    <h3 class="text-subtitle" style="margin-bottom: var(--space-md);">SEM/SEO</h3>
+                    <p class="text-body" style="color: var(--prisma-gray); margin-bottom: var(--space-lg);">
+                        Posicionamiento y publicidad en buscadores
+                    </p>
+                    <ul class="features">
+                        <li>Google Ads</li>
+                        <li>SEO técnico</li>
+                        <li>Analytics</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <span class="icon icon-two-tone icon-2xl" style="margin-bottom: var(--space-lg);">groups</span>
+                    <h3 class="text-subtitle" style="margin-bottom: var(--space-md);">Social Media</h3>
+                    <p class="text-body" style="color: var(--prisma-gray); margin-bottom: var(--space-lg);">
+                        Gestión integral de redes sociales
+                    </p>
+                    <ul class="features">
+                        <li>Contenido</li>
+                        <li>Community</li>
+                        <li>Social Ads</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <span class="icon icon-two-tone icon-2xl" style="margin-bottom: var(--space-lg);">analytics</span>
+                    <h3 class="text-subtitle" style="margin-bottom: var(--space-md);">Analytics</h3>
+                    <p class="text-body" style="color: var(--prisma-gray); margin-bottom: var(--space-lg);">
+                        Análisis y optimización de datos
+                    </p>
+                    <ul class="features">
+                        <li>Google Analytics</li>
+                        <li>Reporting</li>
+                        <li>Insights</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ejemplo Pricing Cards -->
+        <div class="section">
+            <h2 class="section-title">
+                <span class="icon">payments</span>
+                Ejemplo: Pricing Cards
+            </h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <span class="icon icon-two-tone icon-2xl" style="margin-bottom: var(--space-lg);">rocket_launch</span>
+                    <h3 class="text-subtitle">Básico</h3>
+                    <div class="price">€1,200<span class="text-small">/mes</span></div>
+                    <ul class="features">
+                        <li>SEO básico</li>
+                        <li>2 campañas SEM</li>
+                        <li>Reporting mensual</li>
+                        <li>Soporte email</li>
+                    </ul>
+                    <button class="btn btn-secondary" style="width: 100%;">Seleccionar</button>
+                </div>
+                <div class="pricing-card card-highlight">
+                    <span class="icon icon-two-tone icon-2xl" style="margin-bottom: var(--space-lg);">stars</span>
+                    <h3 class="text-subtitle">Premium</h3>
+                    <div class="price">€2,500<span class="text-small">/mes</span></div>
+                    <ul class="features">
+                        <li>SEO avanzado</li>
+                        <li>5 campañas SEM</li>
+                        <li>Social Media</li>
+                        <li>Reporting semanal</li>
+                        <li>Soporte prioritario</li>
+                    </ul>
+                    <button class="btn btn-primary" style="width: 100%;">Seleccionar</button>
+                </div>
+                <div class="pricing-card">
+                    <span class="icon icon-two-tone icon-2xl" style="margin-bottom: var(--space-lg);">workspace_premium</span>
+                    <h3 class="text-subtitle">Enterprise</h3>
+                    <div class="price">€4,500<span class="text-small">/mes</span></div>
+                    <ul class="features">
+                        <li>Todo lo anterior</li>
+                        <li>Estrategia personalizada</li>
+                        <li>Account Manager</li>
+                        <li>Reporting diario</li>
+                        <li>Soporte 24/7</li>
+                    </ul>
+                    <button class="btn btn-secondary" style="width: 100%;">Contactar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="section" style="text-align: center;">
+            <p class="text-body" style="color: var(--prisma-gray);">
+                <span class="icon" style="vertical-align: middle;">design_services</span>
+                Prisma v5 Design System • Sistema escalable y consistente para presentaciones empresariales
+            </p>
+        </div>
+    </div>
+</body>
+</html>

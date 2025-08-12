@@ -1,0 +1,211 @@
+/* ========================================
+   PRISMA V5 - KEYPOINTS SLIDE STYLES
+   Slide type: keypoints
+   Purpose: Structured key points and takeaways
+   ======================================== */
+
+.prisma-keypoints__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  padding: clamp(2rem, 5vw, 4rem);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.prisma-keypoints__header {
+  margin-bottom: clamp(2rem, 4vw, 3rem);
+  width: 100%;
+}
+
+.prisma-keypoints__title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--prisma-text-primary);
+  margin-bottom: clamp(0.5rem, 1vw, 1rem);
+}
+
+.prisma-keypoints__subtitle {
+  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--prisma-text-secondary);
+  opacity: 0.8;
+}
+
+.prisma-keypoints__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: clamp(1.5rem, 3vw, 2rem);
+  width: 100%;
+}
+
+.prisma-keypoints__card {
+  padding: clamp(1.5rem, 3vw, 2rem);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.prisma-keypoints__card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, var(--prisma-accent), rgba(220, 38, 38, 0.5));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.prisma-keypoints__card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(220, 38, 38, 0.3);
+  transform: translateY(-2px);
+}
+
+.prisma-keypoints__card:hover::before {
+  opacity: 1;
+}
+
+.prisma-keypoints__card-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: clamp(2rem, 3vw, 2.5rem);
+  height: clamp(2rem, 3vw, 2.5rem);
+  background: rgba(220, 38, 38, 0.2);
+  border-radius: 50%;
+  font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+  font-weight: 700;
+  color: var(--prisma-accent);
+  margin-bottom: clamp(1rem, 2vw, 1.5rem);
+}
+
+.prisma-keypoints__card-title {
+  font-size: clamp(1.3rem, 2.2vw, 1.6rem);
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--prisma-text-primary);
+  margin-bottom: clamp(0.75rem, 1.5vw, 1rem);
+}
+
+.prisma-keypoints__card-description {
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  line-height: 1.5;
+  color: var(--prisma-text-secondary);
+  margin-bottom: clamp(1rem, 2vw, 1.5rem);
+  opacity: 0.8;
+}
+
+.prisma-keypoints__card-points {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.5rem, 1vw, 0.75rem);
+}
+
+.prisma-keypoints__card-point {
+  display: flex;
+  align-items: flex-start;
+  gap: clamp(0.5rem, 1vw, 0.75rem);
+  font-size: clamp(0.95rem, 1.6vw, 1.1rem);
+  line-height: 1.4;
+  color: var(--prisma-text-secondary);
+}
+
+.prisma-keypoints__card-point::before {
+  content: '•';
+  color: var(--prisma-accent);
+  font-weight: 700;
+  font-size: 1.2em;
+  line-height: 1;
+  margin-top: 0.1em;
+  flex-shrink: 0;
+}
+
+.prisma-keypoints__summary {
+  margin-top: clamp(2rem, 4vw, 3rem);
+  padding: clamp(1.5rem, 3vw, 2rem);
+  background: rgba(220, 38, 38, 0.1);
+  border: 1px solid rgba(220, 38, 38, 0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  width: 100%;
+}
+
+.prisma-keypoints__summary-title {
+  font-size: clamp(1.2rem, 2.2vw, 1.5rem);
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--prisma-text-primary);
+  margin-bottom: clamp(0.75rem, 1.5vw, 1rem);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.prisma-keypoints__summary-title::before {
+  content: '💡';
+  font-size: 1.2em;
+}
+
+.prisma-keypoints__summary-text {
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  line-height: 1.5;
+  color: var(--prisma-text-secondary);
+  opacity: 0.9;
+}
+
+.prisma-keypoints__accent {
+  width: clamp(60px, 10vw, 100px);
+  height: 4px;
+  background: linear-gradient(90deg, var(--prisma-accent), transparent);
+  margin: clamp(1.5rem, 3vw, 2rem) 0;
+  border-radius: 2px;
+}
+
+/* Single column layout for fewer points */
+.prisma-keypoints__grid--single {
+  grid-template-columns: 1fr;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Two column layout for medium number of points */
+.prisma-keypoints__grid--double {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .prisma-keypoints__grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .prisma-keypoints__grid--double {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .prisma-keypoints__container {
+    padding: clamp(1.5rem, 4vw, 2.5rem);
+  }
+  
+  .prisma-keypoints__grid {
+    gap: clamp(1rem, 2vw, 1.5rem);
+  }
+}

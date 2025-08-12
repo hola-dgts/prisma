@@ -1,0 +1,206 @@
+/* ========================================
+   PRISMA v5 - ESTILOS DE PRESENTACIONES
+   Estrategia v4: Sin marcos, tipografía fluida
+   ======================================== */
+
+/* ========================================
+   IMPORTACIONES BASE
+   ======================================== */
+
+/* Base y layout principal */
+@import './base.css';
+
+/* Tipografía fluida */
+@import './typography.css';
+
+/* ========================================
+   SLIDES POR TIPO
+   ======================================== */
+
+/* Slide Types */
+@import './slides/cover.css';
+@import './slides/index.css';
+@import './slides/section_index.css';
+@import './slides/content.css';
+@import './slides/highlight.css';
+@import './slides/keypoints.css';
+@import './slides/metrics.css';
+@import './slides/quote.css';
+@import './slides/image.css';
+@import './slides/video.css';
+@import './slides/closing.css';
+@import './slides/title.css';
+
+/* ========================================
+   COMPONENTES DE PRESENTACIÓN
+   ======================================== */
+
+/* Toolbar y controles */
+@import './components/toolbar.css';
+
+/* ========================================
+   ESTILOS ESPECÍFICOS ADICIONALES
+   ======================================== */
+
+/* Progreso de presentación */
+.prisma-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--prisma-primary), #c44a2a);
+  border-radius: 0 2px 2px 0;
+  transition: width var(--prisma-duration-normal) var(--prisma-easing);
+  z-index: var(--prisma-z-notification);
+  box-shadow: 0 0 12px rgba(var(--prisma-primary-rgb), 0.3);
+  will-change: width;
+}
+
+/* Overlay para modales */
+.prisma-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: var(--prisma-z-modal);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  opacity: 0;
+  transition: opacity var(--prisma-duration-normal) var(--prisma-easing);
+}
+
+.prisma-overlay--visible {
+  opacity: 1;
+}
+
+/* Barra de progreso */
+.prisma-presentation__progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--prisma-accent), rgba(220, 38, 38, 0.7));
+  transition: width 0.3s ease;
+  z-index: 1000;
+  width: var(--progress, 0%);
+}
+
+/* Loading states */
+.prisma-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+
+.prisma-spinner {
+  width: 32px;
+  height: 32px;
+  border: 3px solid rgba(var(--prisma-primary-rgb), 0.1);
+  border-top: 3px solid var(--prisma-primary);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Error states */
+.prisma-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  text-align: center;
+  color: var(--prisma-text-secondary);
+}
+
+.prisma-error__icon {
+  font-size: var(--prisma-font-size-4xl);
+  color: var(--prisma-primary);
+  margin-bottom: var(--prisma-spacing-lg);
+}
+
+.prisma-error__title {
+  font-size: var(--prisma-font-size-xl);
+  font-weight: 600;
+  color: var(--prisma-text-primary);
+  margin-bottom: var(--prisma-spacing-sm);
+}
+
+.prisma-error__message {
+  font-size: var(--prisma-font-size-base);
+  color: var(--prisma-text-secondary);
+}
+
+/* ========================================
+   UTILIDADES GLOBALES
+   ======================================== */
+
+/* Ocultar elementos visualmente pero mantener accesibilidad */
+.prisma-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Truncar texto */
+.prisma-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Transiciones suaves */
+.prisma-transition {
+  transition: all var(--prisma-duration-fast) var(--prisma-easing);
+}
+
+.prisma-transition-slow {
+  transition: all var(--prisma-duration-slow) var(--prisma-easing);
+}
+
+/* Focus visible para accesibilidad */
+.prisma-focus-visible:focus-visible {
+  outline: 2px solid var(--prisma-primary);
+  outline-offset: 2px;
+  border-radius: var(--prisma-radius-sm);
+}
+
+/* ========================================
+   PRINT STYLES
+   ======================================== */
+
+@media print {
+  .prisma-presentation-toolbar,
+  .prisma-toolbar__menu-button,
+  .prisma-progress-bar {
+    display: none !important;
+  }
+  
+  .prisma-slide {
+    page-break-after: always;
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  .prisma-slide:last-child {
+    page-break-after: avoid;
+  }
+}

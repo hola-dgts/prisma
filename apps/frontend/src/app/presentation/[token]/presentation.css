@@ -1,0 +1,20 @@
+/* Presentation page specific styles */
+
+.slide-navigation-button {
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
+
+.slide-navigation-button:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.slide-navigation-button:disabled {
+  background: rgba(0, 0, 0, 0.2);
+  cursor: not-allowed;
+}
+
+.slide-navigation-button:disabled:hover {
+  background: rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,73 @@
+/* Prisma v5 Design System - Tokens */
+:root {
+  /* Colores principales */
+  --prisma-primary: #bf3e48;
+  --prisma-primary-hover: #a03441;
+  --prisma-primary-light: rgba(191, 62, 72, 0.1);
+  --prisma-primary-medium: rgba(191, 62, 72, 0.2);
+
+  /* Neutros */
+  --prisma-dark: #1a1a1a;
+  --prisma-gray-700: #374151;
+  --prisma-gray-600: #4b5563;
+  --prisma-gray-500: #6b7280;
+  --prisma-gray-300: #d1d5db;
+  --prisma-gray-200: #e5e7eb;
+  --prisma-gray-100: #f3f4f6;
+  --prisma-gray-50: #f9fafb;
+  --prisma-white: #ffffff;
+
+  /* Funcionales */
+  --prisma-success: #10b981;
+  --prisma-warning: #f59e0b;
+  --prisma-error: #ef4444;
+  --prisma-info: #3b82f6;
+
+  /* Tipografía */
+  --prisma-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --text-hero: clamp(3rem, 8vw, 6rem);
+  --text-title: clamp(2rem, 5vw, 3.5rem);
+  --text-subtitle: clamp(1.5rem, 3vw, 2rem);
+  --text-body-large: clamp(1.125rem, 2.5vw, 1.5rem);
+  --text-body: clamp(1rem, 2vw, 1.25rem);
+  --text-small: clamp(0.875rem, 1.5vw, 1rem);
+  --text-caption: clamp(0.75rem, 1vw, 0.875rem);
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* Espaciado */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+
+  /* Iconografía */
+  --icon-xs: 16px;
+  --icon-sm: 20px;
+  --icon-md: 24px;
+  --icon-lg: 32px;
+  --icon-xl: 48px;
+  --icon-2xl: 64px;
+
+  /* Sombras */
+  --shadow-sm: 0 1px 3px 0 rgba(0,0,0,0.1);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.1);
+
+  /* Bordes */
+  --border-radius-sm: 0.25rem;
+  --border-radius-md: 0.5rem;
+  --border-radius-lg: 0.75rem;
+  --border-radius-xl: 1rem;
+  /* Transiciones */
+  --transition-fast: 150ms ease-out;
+  --transition-normal: 250ms ease-out;
+}

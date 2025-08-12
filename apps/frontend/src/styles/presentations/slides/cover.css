@@ -1,0 +1,162 @@
+/* ========================================
+   PRISMA v5 - SLIDE: COVER (Portada)
+   ======================================== */
+
+.prisma-slide--cover {
+  background: linear-gradient(135deg, #fff 0%, #fafafa 100%);
+}
+
+.prisma-cover__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* Padding gestionado por .prisma-slide__body en base.css */
+}
+
+/* ========================================
+   ELEMENTOS DE PORTADA
+   ======================================== */
+
+.prisma-cover__title {
+  font-size: var(--prisma-font-size-5xl);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: var(--prisma-primary);
+  margin-bottom: var(--prisma-spacing-xl);
+  max-width: 80%;
+}
+
+.prisma-cover__subtitle {
+  font-size: var(--prisma-font-size-2xl);
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--prisma-text-secondary);
+  margin-bottom: var(--prisma-spacing-2xl);
+  max-width: 70%;
+}
+
+.prisma-cover__content {
+  font-size: var(--prisma-font-size-lg);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--prisma-text-tertiary);
+  margin-bottom: var(--prisma-spacing-2xl);
+  max-width: 60%;
+}
+
+.prisma-cover__author {
+  font-size: var(--prisma-font-size-base);
+  font-weight: 500;
+  color: var(--prisma-text-subtle);
+  margin-top: var(--prisma-spacing-3xl);
+}
+
+.prisma-cover__author::before {
+  content: "Por ";
+  font-weight: 400;
+}
+
+/* ========================================
+   LOGO Y BRANDING
+   ======================================== */
+
+.prisma-cover__logo {
+  width: auto;
+  height: clamp(40px, 8vw, 80px);
+  margin-bottom: var(--prisma-spacing-2xl);
+  opacity: 0.8;
+}
+
+.prisma-cover__brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--prisma-spacing-md);
+  margin-top: var(--prisma-spacing-3xl);
+}
+
+.prisma-cover__brand-text {
+  font-size: var(--prisma-font-size-sm);
+  font-weight: 500;
+  color: var(--prisma-text-subtle);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* ========================================
+   EFECTOS VISUALES
+   ======================================== */
+
+.prisma-cover__accent {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, var(--prisma-primary-light) 0%, transparent 70%);
+  border-radius: 50%;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.prisma-cover__accent::after {
+  content: '';
+  position: absolute;
+  bottom: -50px;
+  left: -100px;
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, var(--prisma-primary-light) 0%, transparent 70%);
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+
+@media (max-width: 768px) {
+  .prisma-slide--cover .prisma-slide__body {
+    padding: var(--prisma-spacing-xl);
+  }
+  
+  .prisma-cover__title {
+    max-width: 95%;
+    margin-bottom: var(--prisma-spacing-lg);
+  }
+  
+  .prisma-cover__subtitle {
+    max-width: 90%;
+    margin-bottom: var(--prisma-spacing-xl);
+  }
+  
+  .prisma-cover__content {
+    max-width: 85%;
+    margin-bottom: var(--prisma-spacing-xl);
+  }
+  
+  .prisma-cover__logo {
+    height: clamp(30px, 6vw, 60px);
+    margin-bottom: var(--prisma-spacing-lg);
+  }
+  
+  .prisma-cover__accent {
+    width: 120px;
+    height: 120px;
+    top: 15%;
+    right: 5%;
+  }
+  
+  .prisma-cover__accent::after {
+    width: 80px;
+    height: 80px;
+    bottom: -30px;
+    left: -60px;
+  }
+}

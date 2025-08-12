@@ -1,0 +1,7 @@
+{
+  "index": { "title": "Introducción" },
+  "getting-started": { "title": "Guía Rápida" },
+  "components": { "title": "Componentes" },
+  "tokens": { "title": "Tokens de Diseño" },
+  "guidelines": { "title": "Guías y Patrones" }
+}

@@ -1,0 +1,269 @@
+/* ========================================
+   PRISMA v5 - TOOLBAR DE PRESENTACIONES
+   Estrategia v4: Botones flotantes sin marco
+   ======================================== */
+
+/* ========================================
+   TOOLBAR PRINCIPAL
+   ======================================== */
+
+.prisma-presentation-toolbar {
+  position: fixed;
+  bottom: var(--prisma-spacing-xl);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: var(--prisma-z-fixed);
+  
+  display: flex;
+  align-items: center;
+  gap: var(--prisma-spacing-lg);
+  
+  /* Liquid Glass Effect */
+  background: var(--prisma-glass);
+  backdrop-filter: blur(var(--prisma-blur));
+  -webkit-backdrop-filter: blur(var(--prisma-blur));
+  
+  border: 1px solid var(--prisma-border);
+  border-radius: var(--prisma-radius-full);
+  box-shadow: var(--prisma-shadow-xl);
+  
+  padding: var(--prisma-spacing-md) var(--prisma-spacing-xl);
+  
+  /* Transiciones */
+  transition: opacity var(--prisma-duration-normal) var(--prisma-easing),
+              transform var(--prisma-duration-normal) var(--prisma-easing);
+  will-change: opacity, transform;
+}
+
+/* Estados del toolbar */
+.prisma-presentation-toolbar--hidden {
+  opacity: 0;
+  transform: translateX(-50%) translateY(20px);
+  pointer-events: none;
+}
+
+.prisma-presentation-toolbar--visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+  pointer-events: all;
+}
+
+/* ========================================
+   GRUPOS DE BOTONES
+   ======================================== */
+
+.prisma-toolbar__group {
+  display: flex;
+  align-items: center;
+  gap: var(--prisma-spacing-sm);
+}
+
+.prisma-toolbar__separator {
+  width: 1px;
+  height: 24px;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0 var(--prisma-spacing-sm);
+}
+
+/* ========================================
+   BOTONES DE TOOLBAR
+   ======================================== */
+
+.prisma-toolbar__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  width: 44px;
+  height: 44px;
+  
+  background: transparent;
+  border: none;
+  border-radius: var(--prisma-radius-full);
+  
+  color: var(--prisma-text-secondary);
+  cursor: pointer;
+  
+  transition: all var(--prisma-duration-fast) var(--prisma-easing);
+  will-change: background-color, color, transform;
+}
+
+.prisma-toolbar__button:hover {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--prisma-text-primary);
+  transform: scale(1.05);
+}
+
+.prisma-toolbar__button:active {
+  transform: scale(0.95);
+}
+
+.prisma-toolbar__button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.prisma-toolbar__button:disabled:hover {
+  background: transparent;
+  color: var(--prisma-text-secondary);
+}
+
+/* Botón activo */
+.prisma-toolbar__button--active {
+  background: var(--prisma-primary);
+  color: white;
+}
+
+.prisma-toolbar__button--active:hover {
+  background: var(--prisma-primary);
+  color: white;
+  transform: scale(1.05);
+}
+
+/* ========================================
+   NAVEGACIÓN DE SLIDES
+   ======================================== */
+
+.prisma-toolbar__navigation {
+  display: flex;
+  align-items: center;
+  gap: var(--prisma-spacing-sm);
+  
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: var(--prisma-radius-full);
+  padding: var(--prisma-spacing-xs) var(--prisma-spacing-sm);
+}
+
+.prisma-toolbar__slide-counter {
+  font-size: var(--prisma-font-size-sm);
+  font-weight: 500;
+  color: var(--prisma-text-secondary);
+  padding: 0 var(--prisma-spacing-sm);
+  min-width: 60px;
+  text-align: center;
+}
+
+/* ========================================
+   TÍTULO RESPONSIVO
+   ======================================== */
+
+.prisma-toolbar__title {
+  font-size: var(--prisma-font-size-base);
+  font-weight: 500;
+  color: var(--prisma-text-primary);
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ========================================
+   BOTÓN DE MENÚ
+   ======================================== */
+
+.prisma-toolbar__menu-button {
+  position: fixed;
+  top: var(--prisma-spacing-xl);
+  left: var(--prisma-spacing-xl);
+  z-index: var(--prisma-z-fixed);
+  
+  width: 48px;
+  height: 48px;
+  
+  background: var(--prisma-glass);
+  backdrop-filter: blur(var(--prisma-blur));
+  -webkit-backdrop-filter: blur(var(--prisma-blur));
+  
+  border: 1px solid var(--prisma-border);
+  border-radius: var(--prisma-radius-full);
+  box-shadow: var(--prisma-shadow-lg);
+  
+  color: var(--prisma-text-secondary);
+  cursor: pointer;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  transition: all var(--prisma-duration-fast) var(--prisma-easing);
+}
+
+.prisma-toolbar__menu-button:hover {
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--prisma-text-primary);
+  transform: scale(1.05);
+}
+
+.prisma-toolbar__menu-button:active {
+  transform: scale(0.95);
+}
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+
+@media (max-width: 768px) {
+  .prisma-presentation-toolbar {
+    bottom: var(--prisma-spacing-lg);
+    padding: var(--prisma-spacing-sm) var(--prisma-spacing-lg);
+    gap: var(--prisma-spacing-md);
+  }
+  
+  .prisma-toolbar__button {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .prisma-toolbar__title {
+    display: none;
+  }
+  
+  .prisma-toolbar__slide-counter {
+    min-width: 50px;
+    font-size: var(--prisma-font-size-xs);
+  }
+  
+  .prisma-toolbar__menu-button {
+    top: var(--prisma-spacing-lg);
+    left: var(--prisma-spacing-lg);
+    width: 44px;
+    height: 44px;
+  }
+}
+
+/* ========================================
+   ANIMACIONES DE ENTRADA
+   ======================================== */
+
+@keyframes toolbarSlideUp {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.prisma-presentation-toolbar--animate-in {
+  animation: toolbarSlideUp var(--prisma-duration-slow) var(--prisma-easing-bounce);
+}
+
+/* ========================================
+   MODO PRESENTACIÓN (NARRADO)
+   ======================================== */
+
+.prisma-presentation-toolbar--presenting {
+  /* Ocultar controles de navegación manual */
+}
+
+.prisma-presentation-toolbar--presenting .prisma-toolbar__navigation {
+  display: none;
+}
+
+.prisma-presentation-toolbar--presenting .prisma-toolbar__button[data-action="prev"],
+.prisma-presentation-toolbar--presenting .prisma-toolbar__button[data-action="next"] {
+  display: none;
+}

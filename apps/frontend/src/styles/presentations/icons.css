@@ -1,0 +1,158 @@
+/* ========================================
+   SISTEMA DE ICONOS MATERIAL DESIGN
+   Compatible con Prisma v4
+   ======================================== */
+
+/* ========================================
+   ICONOS GRANDES (Two Tone)
+   Para elementos destacados, métricas, highlights
+   ======================================== */
+
+.prisma-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.prisma-icon--large {
+  width: clamp(2.5rem, 5vw, 4rem);
+  height: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  margin-bottom: clamp(0.75rem, 1.5vw, 1rem);
+}
+
+.prisma-icon--medium {
+  width: clamp(1.5rem, 3vw, 2.5rem);
+  height: clamp(1.5rem, 3vw, 2.5rem);
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  margin-right: clamp(0.5rem, 1vw, 0.75rem);
+}
+
+.prisma-icon--small {
+  width: clamp(1.25rem, 2.5vw, 1.5rem);
+  height: clamp(1.25rem, 2.5vw, 1.5rem);
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  margin-right: clamp(0.25rem, 0.5vw, 0.5rem);
+}
+
+/* ========================================
+   ICONOS ESPECÍFICOS POR CONTEXTO
+   ======================================== */
+
+/* Iconos en highlights */
+.prisma-highlight__badge .prisma-icon {
+  width: clamp(1.5rem, 3vw, 2rem);
+  height: clamp(1.5rem, 3vw, 2rem);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin-right: clamp(0.5rem, 1vw, 0.75rem);
+  color: var(--prisma-primary);
+  opacity: 0.9;
+}
+
+/* Iconos en keypoints */
+.prisma-keypoints__card .prisma-icon {
+  width: clamp(2rem, 4vw, 3rem);
+  height: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: clamp(0.5rem, 1vw, 0.75rem);
+  color: var(--prisma-primary);
+  align-self: center;
+}
+
+/* Iconos en métricas */
+.prisma-metrics__card .prisma-icon {
+  width: clamp(2.5rem, 5vw, 4rem);
+  height: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  margin-bottom: clamp(0.75rem, 1.5vw, 1rem);
+  color: var(--prisma-primary);
+}
+
+/* Iconos en listas (outlined) */
+.prisma-index__list-item .prisma-icon,
+.prisma-content__list .prisma-icon {
+  width: clamp(1.25rem, 2.5vw, 1.5rem);
+  height: clamp(1.25rem, 2.5vw, 1.5rem);
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  margin-right: clamp(0.5rem, 1vw, 0.75rem);
+  color: var(--prisma-primary);
+  opacity: 0.8;
+  flex-shrink: 0;
+}
+
+/* Iconos en closing/contact */
+.prisma-closing__contact-item .prisma-icon {
+  width: clamp(2rem, 4vw, 3rem);
+  height: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: clamp(0.5rem, 1vw, 0.75rem);
+  color: var(--prisma-primary);
+}
+
+/* ========================================
+   EFECTOS Y TRANSICIONES
+   ======================================== */
+
+.prisma-icon {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Hover effects para iconos interactivos */
+.prisma-keypoints__card:hover .prisma-icon,
+.prisma-metrics__card:hover .prisma-icon,
+.prisma-closing__contact-item:hover .prisma-icon {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+/* ========================================
+   RESPONSIVE ADJUSTMENTS
+   ======================================== */
+
+@media (max-width: 768px) {
+  .prisma-icon--large {
+    width: clamp(2rem, 8vw, 3rem);
+    height: clamp(2rem, 8vw, 3rem);
+    font-size: clamp(2rem, 8vw, 3rem);
+  }
+  
+  .prisma-keypoints__card .prisma-icon,
+  .prisma-metrics__card .prisma-icon {
+    width: clamp(1.75rem, 6vw, 2.5rem);
+    height: clamp(1.75rem, 6vw, 2.5rem);
+    font-size: clamp(1.75rem, 6vw, 2.5rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .prisma-icon--large {
+    width: clamp(1.75rem, 10vw, 2.5rem);
+    height: clamp(1.75rem, 10vw, 2.5rem);
+    font-size: clamp(1.75rem, 10vw, 2.5rem);
+  }
+}
+
+/* ========================================
+   UTILIDADES DE COLOR
+   ======================================== */
+
+.prisma-icon--primary {
+  color: var(--prisma-primary);
+}
+
+.prisma-icon--secondary {
+  color: var(--prisma-text-secondary);
+}
+
+.prisma-icon--success {
+  color: #22c55e;
+}
+
+.prisma-icon--warning {
+  color: #f59e0b;
+}
+
+.prisma-icon--error {
+  color: #ef4444;
+}

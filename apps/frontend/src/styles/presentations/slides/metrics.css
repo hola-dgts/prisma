@@ -1,0 +1,264 @@
+/* ========================================
+   PRISMA V5 - METRICS SLIDE STYLES
+   Slide type: metrics
+   Purpose: Data visualization and statistics
+   ======================================== */
+
+.prisma-metrics__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: clamp(2rem, 5vw, 4rem);
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.prisma-metrics__header {
+  text-align: center;
+  margin-bottom: clamp(2rem, 4vw, 3rem);
+  width: 100%;
+}
+
+.prisma-metrics__title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--prisma-text-primary);
+  margin-bottom: clamp(0.5rem, 1vw, 1rem);
+}
+
+.prisma-metrics__subtitle {
+  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--prisma-text-secondary);
+  opacity: 0.8;
+}
+
+.prisma-metrics__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: clamp(1.5rem, 3vw, 2rem);
+  width: 100%;
+  margin-bottom: clamp(2rem, 4vw, 3rem);
+}
+
+.prisma-metrics__card {
+  padding: clamp(1.5rem, 3vw, 2rem);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.prisma-metrics__card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--prisma-accent), rgba(220, 38, 38, 0.5));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.prisma-metrics__card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(220, 38, 38, 0.3);
+  transform: translateY(-4px);
+}
+
+.prisma-metrics__card:hover::before {
+  opacity: 1;
+}
+
+.prisma-metrics__card-icon {
+  width: clamp(3rem, 5vw, 4rem);
+  height: clamp(3rem, 5vw, 4rem);
+  background: rgba(220, 38, 38, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto clamp(1rem, 2vw, 1.5rem);
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  color: var(--prisma-accent);
+}
+
+.prisma-metrics__card-value {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 800;
+  line-height: 1;
+  color: var(--prisma-text-primary);
+  margin-bottom: clamp(0.5rem, 1vw, 0.75rem);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.prisma-metrics__card-label {
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--prisma-text-secondary);
+  margin-bottom: clamp(0.5rem, 1vw, 0.75rem);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.prisma-metrics__card-description {
+  font-size: clamp(0.9rem, 1.5vw, 1rem);
+  line-height: 1.4;
+  color: var(--prisma-text-secondary);
+  opacity: 0.7;
+}
+
+.prisma-metrics__card-trend {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-top: clamp(0.5rem, 1vw, 0.75rem);
+  padding: 0.25rem 0.5rem;
+  border-radius: 20px;
+  font-size: clamp(0.8rem, 1.3vw, 0.9rem);
+  font-weight: 600;
+}
+
+.prisma-metrics__card-trend--up {
+  background: rgba(34, 197, 94, 0.2);
+  color: #22c55e;
+}
+
+.prisma-metrics__card-trend--down {
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+}
+
+.prisma-metrics__card-trend--neutral {
+  background: rgba(156, 163, 175, 0.2);
+  color: #9ca3af;
+}
+
+.prisma-metrics__comparison {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: clamp(1rem, 2vw, 1.5rem);
+  width: 100%;
+  margin-top: clamp(1.5rem, 3vw, 2rem);
+}
+
+.prisma-metrics__comparison-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: clamp(1rem, 2vw, 1.5rem);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.prisma-metrics__comparison-label {
+  font-size: clamp(0.9rem, 1.5vw, 1rem);
+  font-weight: 500;
+  color: var(--prisma-text-secondary);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.prisma-metrics__comparison-value {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  color: var(--prisma-text-primary);
+  text-align: center;
+}
+
+.prisma-metrics__chart-placeholder {
+  width: 100%;
+  height: clamp(200px, 30vw, 300px);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: clamp(1.5rem, 3vw, 2rem);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.prisma-metrics__chart-placeholder-text {
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  color: var(--prisma-text-secondary);
+  opacity: 0.6;
+}
+
+.prisma-metrics__summary {
+  margin-top: clamp(2rem, 4vw, 3rem);
+  text-align: center;
+  max-width: 800px;
+}
+
+.prisma-metrics__summary-text {
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  line-height: 1.5;
+  color: var(--prisma-text-secondary);
+  opacity: 0.8;
+}
+
+/* Large metrics for hero numbers */
+.prisma-metrics__hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: clamp(2rem, 4vw, 3rem) 0;
+}
+
+.prisma-metrics__hero-value {
+  font-size: clamp(4rem, 10vw, 8rem);
+  font-weight: 900;
+  line-height: 1;
+  color: var(--prisma-accent);
+  text-shadow: 0 4px 20px rgba(220, 38, 38, 0.3);
+  margin-bottom: clamp(0.5rem, 1vw, 1rem);
+}
+
+.prisma-metrics__hero-label {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 600;
+  color: var(--prisma-text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .prisma-metrics__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .prisma-metrics__comparison {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .prisma-metrics__container {
+    padding: clamp(1.5rem, 4vw, 2.5rem);
+  }
+  
+  .prisma-metrics__grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .prisma-metrics__comparison {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colores · Prisma v5 Design System</title>
+  <link rel="stylesheet" href="../../css/tokens.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+</head>
+<body>
+  <nav class="ds-nav ds-nav-grid">
+  <div class="ds-logo-grid">
+    <div class="ds-logo-img-col">
+      <a href="../index.html" style="text-decoration:none;color:inherit">
+        <img src="../../prisma-logo.svg" alt="Prisma logo" class="ds-logo-img">
+      </a>
+    </div>
+    <div class="ds-logo-text-col">
+      <span class="ds-logo-title">Prisma</span><br>
+      <span class="ds-logo-sub">Design System</span>
+    </div>
+  </div>
+  <ul class="ds-nav-menu">
+    <li><a href="colors.html" class="active">Colores</a></li>
+    <li><a href="typography.html">Tipografía</a></li>
+    <li><a href="spacing.html">Espaciado</a></li>
+    <li><a href="icons.html">Iconografía</a></li>
+    <li><a href="shadows.html">Sombras</a></li>
+  </ul>
+</nav>
+  <main class="ds-main">
+  <h1>Paleta de Colores Premium</h1>
+  <p class="ds-section-desc">El auténtico rojo Prisma y una selección de neutros y funcionales para un sistema visual consistente y elegante.</p>
+  <div class="ds-cards-grid">
+    <section class="ds-card">
+      <h2>Colores Principales</h2>
+      <div class="ds-swatches">
+        <div class="ds-swatch" style="background:var(--prisma-primary);"></div>
+        <div class="ds-swatch" style="background:var(--prisma-primary-hover);"></div>
+        <div class="ds-swatch" style="background:var(--prisma-primary-light);border:1px solid var(--prisma-primary-medium);"></div>
+      </div>
+      <ul class="ds-token-list">
+        <li><b>Prisma Primary:</b> #bf3e48</li>
+        <li><b>Primary Hover:</b> #a03441</li>
+        <li><b>Primary Light:</b> rgba(191,62,72,0.1)</li>
+      </ul>
+    </section>
+    <section class="ds-card">
+      <h2>Neutros</h2>
+      <div class="ds-swatches">
+        <div class="ds-swatch" style="background:var(--prisma-dark);"></div>
+        <div class="ds-swatch" style="background:var(--prisma-gray-700);"></div>
+        <div class="ds-swatch" style="background:var(--prisma-gray-300);"></div>
+        <div class="ds-swatch" style="background:var(--prisma-white);border:1px solid var(--prisma-gray-200);"></div>
+      </div>
+      <ul class="ds-token-list">
+        <li><b>Dark:</b> #1a1a1a</li>
+        <li><b>Gray 700:</b> #374151</li>
+        <li><b>Gray 300:</b> #d1d5db</li>
+        <li><b>White:</b> #ffffff</li>
+      </ul>
+    </section>
+    <section class="ds-card">
+      <h2>Colores Funcionales</h2>
+      <div class="ds-swatches">
+        <div class="ds-swatch" style="background:var(--prisma-success);"></div>
+        <div class="ds-swatch" style="background:var(--prisma-warning);"></div>
+        <div class="ds-swatch" style="background:var(--prisma-error);"></div>
+        <div class="ds-swatch" style="background:var(--prisma-info);"></div>
+      </div>
+      <ul class="ds-token-list">
+        <li><b>Success:</b> #10b981</li>
+        <li><b>Warning:</b> #f59e0b</li>
+        <li><b>Error:</b> #ef4444</li>
+        <li><b>Info:</b> #3b82f6</li>
+      </ul>
+    </section>
+    <section style="margin-top:2.5rem;">
+      <h3 style="font-size:var(--text-body-large);margin-bottom:1rem;">Guía de uso</h3>
+      <ul style="color:var(--prisma-gray-600);font-size:var(--text-small);">
+        <li>Usa el rojo Prisma solo para destacar, nunca como color base de fondo.</li>
+        <li>Los neutros ayudan a jerarquizar y dar ritmo visual.</li>
+        <li>Los colores funcionales solo para estados y alertas.</li>
+        <li><b>No</b> combines más de 3 colores principales en una misma composición.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

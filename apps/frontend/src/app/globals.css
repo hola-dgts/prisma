@@ -1,0 +1,185 @@
+@import "tailwindcss";
+
+:root {
+  /* SISTEMA PRISMA v5 */
+  --prisma-version: '5.0.0';
+  --prisma-author: 'Digitis';
+  
+  /* COLORES PRISMA */
+  --prisma-primary: #bf3e48;
+  --prisma-primary-rgb: 191, 62, 72;
+  --prisma-primary-light: rgba(191, 62, 72, 0.1);
+  --prisma-primary-medium: rgba(191, 62, 72, 0.2);
+  
+  /* GRISES */
+  --prisma-text-primary: #1a202c;
+  --prisma-text-secondary: #2d3748;
+  --prisma-text-tertiary: #4a5568;
+  --prisma-text-subtle: #718096;
+  --prisma-text-muted: #a0aec0;
+  
+  /* GLASSMORPHISM */
+  --prisma-glass: rgba(255, 255, 255, 0.96);
+  --prisma-glass-medium: rgba(255, 255, 255, 0.88);
+  --prisma-glass-light: rgba(255, 255, 255, 0.85);
+  --prisma-glass-subtle: rgba(248, 250, 252, 0.92);
+  
+  /* EFECTOS */
+  --prisma-blur: 24px;
+  --prisma-blur-heavy: 30px;
+  --prisma-blur-light: 15px;
+  --prisma-saturate: 130%;
+  --prisma-border: rgba(255, 255, 255, 0.9);
+  
+  /* ESPACIADO FLUIDO - Estrategia v4 */
+  --prisma-spacing-xs: 0.25rem;
+  --prisma-spacing-sm: 0.5rem;
+  --prisma-spacing-md: clamp(0.875rem, 0.75rem + 0.5vw, 1rem);
+  --prisma-spacing-lg: clamp(1.25rem, 1rem + 1vw, 1.5rem);
+  --prisma-spacing-xl: clamp(1.5rem, 1.25rem + 1.5vw, 2rem);
+  --prisma-spacing-2xl: clamp(2rem, 1.5rem + 2vw, 3rem);
+  --prisma-spacing-3xl: clamp(3rem, 2rem + 3vw, 4rem);
+  
+  /* LAYOUT FLUIDO */
+  --prisma-header-height: 56px;
+  --prisma-controls-height: 80px;
+  --prisma-safe-area: 16px;
+  
+  /* TIPOGRAFÍA FLUIDA - Estrategia v4 con clamp() */
+  --prisma-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --prisma-font-size-xs: clamp(0.6875rem, 0.625rem + 0.3vw, 0.75rem);
+  --prisma-font-size-sm: clamp(0.8125rem, 0.75rem + 0.35vw, 0.875rem);
+  --prisma-font-size-base: clamp(0.9375rem, 0.875rem + 0.4vw, 1rem);
+  --prisma-font-size-lg: clamp(1.0625rem, 1rem + 0.45vw, 1.125rem);
+  --prisma-font-size-xl: clamp(1.25rem, 1.125rem + 0.6vw, 1.5rem);
+  --prisma-font-size-2xl: clamp(1.75rem, 1.5rem + 1vw, 2rem);
+  --prisma-font-size-3xl: clamp(2.25rem, 2rem + 1.25vw, 2.5rem);
+  --prisma-font-size-4xl: clamp(2.75rem, 2.5rem + 1.5vw, 3.5rem);
+  --prisma-font-size-5xl: clamp(3.5rem, 3rem + 2vw, 4.5rem);
+  
+  /* RADIOS */
+  --prisma-radius-sm: 8px;
+  --prisma-radius-md: 12px;
+  --prisma-radius-lg: 16px;
+  --prisma-radius-xl: 24px;
+  --prisma-radius-2xl: 32px;
+  --prisma-radius-full: 9999px;
+  
+  /* SOMBRAS */
+  --prisma-shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --prisma-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.06);
+  --prisma-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --prisma-shadow-lg: 0 12px 24px rgba(0, 0, 0, 0.1);
+  --prisma-shadow-xl: 0 24px 48px rgba(0, 0, 0, 0.12);
+  
+  /* DURACIONES */
+  --prisma-duration-fast: 200ms;
+  --prisma-duration-normal: 300ms;
+  --prisma-duration-slow: 500ms;
+  
+  /* EASING */
+  --prisma-easing: cubic-bezier(0.4, 0, 0.2, 1);
+  --prisma-easing-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  
+  /* Z-INDEX */
+  --prisma-z-base: 1;
+  --prisma-z-dropdown: 50;
+  --prisma-z-sticky: 100;
+  --prisma-z-fixed: 200;
+  --prisma-z-header: 300;
+  --prisma-z-modal: 400;
+  --prisma-z-notification: 500;
+  
+  /* COMPATIBILIDAD SHADCN/UI */
+  --background: 0 0% 100%;
+  --foreground: var(--prisma-text-primary);
+  --card: 0 0% 100%;
+  --card-foreground: var(--prisma-text-primary);
+  --popover: 0 0% 100%;
+  --popover-foreground: var(--prisma-text-primary);
+  --primary: 0 84% 60%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 210 40% 96%;
+  --secondary-foreground: var(--prisma-text-primary);
+  --muted: 210 40% 96%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  --accent: 210 40% 96%;
+  --accent-foreground: var(--prisma-text-primary);
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: var(--prisma-primary);
+  --chart-1: 12 76% 61%;
+  --chart-2: 173 58% 39%;
+  --chart-3: 197 37% 24%;
+  --chart-4: 43 74% 66%;
+  --chart-5: 27 87% 67%;
+  --radius: 0.5rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--prisma-font-family);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Liquid Glass Base - Fondo Blanco */
+.liquid-glass {
+  background: rgba(255, 255, 255, var(--liquid-opacity));
+  -webkit-backdrop-filter: blur(var(--liquid-blur));
+  backdrop-filter: blur(var(--liquid-blur));
+  border: 1px solid var(--liquid-border);
+  box-shadow: var(--liquid-shadow);
+}
+
+/* Variantes para diferentes elementos */
+.liquid-glass-card {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.liquid-glass-pill {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Adaptations */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-preference: 0;
+  }
+  
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Animaciones de entrada */
+@keyframes slide-in-from-left {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-in {
+  animation-fill-mode: both;
+}
+
+.slide-in-from-left {
+  animation: slide-in-from-left 0.3s ease-out;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--prisma-font-family);
+}

@@ -1,0 +1,156 @@
+/* ========================================
+   PRISMA V5 - SECTION INDEX SLIDE STYLES
+   Slide type: section_index
+   Purpose: Section divider with overview
+   ======================================== */
+
+.prisma-section-index__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: clamp(2rem, 5vw, 4rem);
+  text-align: center;
+  position: relative;
+}
+
+.prisma-section-index__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, 
+    rgba(220, 38, 38, 0.1) 0%, 
+    rgba(220, 38, 38, 0.05) 50%, 
+    transparent 100%);
+  z-index: 0;
+}
+
+.prisma-section-index__content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  width: 100%;
+}
+
+.prisma-section-index__number {
+  font-size: clamp(1rem, 2vw, 1.4rem);
+  font-weight: 700;
+  color: var(--prisma-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: clamp(1rem, 2vw, 1.5rem);
+  opacity: 0.9;
+}
+
+.prisma-section-index__title {
+  font-size: clamp(3rem, 7vw, 5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--prisma-text-primary);
+  margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+.prisma-section-index__subtitle {
+  font-size: clamp(1.3rem, 2.8vw, 2rem);
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--prisma-text-secondary);
+  margin-bottom: clamp(2rem, 4vw, 3rem);
+  opacity: 0.8;
+}
+
+.prisma-section-index__overview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: clamp(1rem, 2vw, 1.5rem);
+  margin-top: clamp(2rem, 4vw, 3rem);
+}
+
+.prisma-section-index__topic {
+  padding: clamp(1rem, 2vw, 1.5rem);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+}
+
+.prisma-section-index__topic:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(220, 38, 38, 0.3);
+  transform: translateY(-2px);
+}
+
+.prisma-section-index__topic-title {
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--prisma-text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.prisma-section-index__topic-description {
+  font-size: clamp(0.9rem, 1.6vw, 1.1rem);
+  line-height: 1.4;
+  color: var(--prisma-text-secondary);
+  opacity: 0.7;
+}
+
+.prisma-section-index__accent {
+  width: clamp(60px, 10vw, 100px);
+  height: 4px;
+  background: linear-gradient(90deg, var(--prisma-accent), transparent);
+  margin: clamp(1.5rem, 3vw, 2rem) auto;
+  border-radius: 2px;
+}
+
+.prisma-section-index__progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: clamp(2rem, 4vw, 3rem);
+}
+
+.prisma-section-index__progress-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.prisma-section-index__progress-dot--active {
+  background: var(--prisma-accent);
+  transform: scale(1.2);
+}
+
+.prisma-section-index__progress-dot--completed {
+  background: rgba(220, 38, 38, 0.6);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .prisma-section-index__overview {
+    grid-template-columns: 1fr;
+  }
+  
+  .prisma-section-index__title {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .prisma-section-index__container {
+    padding: clamp(1.5rem, 4vw, 2.5rem);
+  }
+  
+  .prisma-section-index__overview {
+    margin-top: clamp(1.5rem, 3vw, 2rem);
+  }
+}

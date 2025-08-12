@@ -1,0 +1,2 @@
+0000000000000000000000000000000000000000 8de515210f1b5fff956f553c072cf35379f77990 inseti <hola@romangarcia.es> 1754586814 +0200	commit (initial): Initial commit from Create Next App
+8de515210f1b5fff956f553c072cf35379f77990 d8ad4e694865363a2b8123aa35b142686edc230f inseti <hola@romangarcia.es> 1754991566 +0200	commit: chore(backoffice): serve under /admin via basePath
